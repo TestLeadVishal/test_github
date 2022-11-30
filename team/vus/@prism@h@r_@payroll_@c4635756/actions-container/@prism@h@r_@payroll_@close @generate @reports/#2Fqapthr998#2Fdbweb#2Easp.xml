@@ -1,0 +1,53 @@
+<http-page executeResourcesDynamically="false"
+    name="/qapthr998/dbweb.asp" playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@prism@h@r_@payroll_@c4635756/%resources%/recorded-artifacts/9eaf0f82-7734-429e-8563-0d754d385f89.zip"
+    slaProfileEnabled="false" thinkTime="10596"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="9eaf0f82-7734-429e-8563-0d754d385f89">
+    <embedded-action>b8417177-646f-4673-9b46-fc70cc16e04f</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="text/html; Charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/qapthr998/dbweb.asp"
+    path="/qapthr998/dbweb.asp" postType="4"
+    recordedArtifactZipFileName="team/vus/@prism@h@r_@payroll_@c4635756/%resources%/recorded-artifacts/9eaf0f82-7734-429e-8563-0d754d385f89.zip"
+    recordedResponseCode="200" recordedResponseTime="1690"
+    responseSize="2085100" serverUid="qapthr998.prismhr.com"
+    slaProfileEnabled="false" uid="b8417177-646f-4673-9b46-fc70cc16e04f" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_cust_8de6f587-ce72-4dd0-ac35-cfe52092ab00.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_cust_b8417177-646f-4673-9b46-fc70cc16e04f.txt</requestContentFileDescription>
+    <urlPostParameter encodeName="true" encodeValue="true" name="dbcgm"
+        recordRawValue="1" separator="=" value="1" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="ajx"
+        recordRawValue="yes" separator="=" value="yes" valueMode="USE_VALUE"/>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Content-Type" value="application/x-javascript;"/>
+    <header name="Cookie" value="ASPSESSIONID${ASPSESSION param}; DesignBAIS=machine=${Design_Bias}&amp;ver=40&amp;pooler=222"/>
+    <header name="Host" value="qapthr998.prismhr.com"/>
+    <header name="Origin" value="https://qapthr998.prismhr.com"/>
+    <header name="Referer" value="https://qapthr998.prismhr.com/qapthr998/dbweb.asp?dbcgm=1"/>
+    <header name="sec-ch-ua" value="&quot; Not A;Brand&quot;;v=&quot;99&quot;, &quot;Chromium&quot;;v=&quot;101&quot;, &quot;Google Chrome&quot;;v=&quot;101&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="Sec-Fetch-Dest" value="empty"/>
+    <header name="Sec-Fetch-Mode" value="cors"/>
+    <header name="Sec-Fetch-Site" value="same-origin"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK
+Cache-Control: private
+Content-Type: text/html; Charset=utf-8
+Server: Microsoft-IIS/10.0
+P3P: CP=\'IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT\'
+Set-Cookie: DesignBAIS=machine=FOGDZYAVWPGDJUVWRWDDZVUJKHJGTROYTHJQTNOTLARGXNW&amp;ver=40&amp;pooler=222; expires=Mon, 17-Feb-2025 06:00:00 GMT; path=/; secure; SameSite=none
+X-Powered-By: ASP.NET
+Date: Tue, 24 May 2022 20:08:17 GMT
+Content-Length: 2085100</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[<ajaxTOBA><field name="page_R.EMPLOYEES" value="1"/><field name="page_R.VOUCHERS" value="1"/><field name="textarea95v1" value=""/><field name="textarea11v2" value=""/><field name="ScreenRoot" value="HRPY.WORK_PAYROLL.PROGRESS"/><eventSource>button6v2</eventSource><eventType>click</eventType><clickPos>1062,110,DIV,dbcoverstyle1</clickPos><keyCodes>||||select48v1</keyCodes><dimensions>1920|922|1920|922</dimensions><W3CRoot>HRPY.WORK_PAYROLL.PROGRESS</W3CRoot><clientClock>14:07:40</clientClock><clientDate>24.05.2022</clientDate><dbsuiID>${dbsuiID}</dbsuiID><bac>172.16.160.105|UNIDATA|S:\DAVISON\ACCOUNTS\QAPTHR998\HRPY.DBRUN.QAPTHR998</bac></ajaxTOBA>]]></textPostContent>
+</http-action>

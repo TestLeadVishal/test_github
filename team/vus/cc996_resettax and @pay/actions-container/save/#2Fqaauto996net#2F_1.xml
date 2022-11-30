@@ -1,0 +1,75 @@
+<http-page executeResourcesDynamically="false" name="/qaauto996net/_1"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/cc996_resettax and @pay/%resources%/recorded-artifacts/3fb4c414-38cd-4a01-907f-4e3f84cad82a.zip"
+    slaProfileEnabled="false" thinkTime="23"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="3fb4c414-38cd-4a01-907f-4e3f84cad82a">
+    <embedded-action>23ade5f5-8673-403d-ac9f-2a58806bad5a</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="text/html; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/qaauto996net/" path="/qaauto996net/"
+    postCharset="" postType="4"
+    recordedArtifactZipFileName="team/vus/cc996_resettax and @pay/%resources%/recorded-artifacts/3fb4c414-38cd-4a01-907f-4e3f84cad82a.zip"
+    recordedResponseCode="200" responseSize="64340"
+    serverUid="qaauto996.prismhr.com" slaProfileEnabled="false"
+    uid="23ade5f5-8673-403d-ac9f-2a58806bad5a" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_a94840bf-f8fc-4a64-8b1f-6300d82b86d5.0.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_a94840bf-f8fc-4a64-8b1f-6300d82b86d5.txt</requestContentFileDescription>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0" endsWithSimple="'"
+        extractFromVarNameAdv="" extractFromVarNameSimple=""
+        extractType="0" extractTypeAdv="0" extractTypeSimple="0"
+        matchNumber="1" matchNumberAdv="1" matchNumberSimple="1"
+        name="designbaisState_b"
+        refererUid="d3d0fb9b-70c8-4cd7-a4f7-d122be485161"
+        regExp="designbaisState', '(.*?)'" regExpAdv=""
+        setDefaultValue="true" startsWithSimple="designbaisState', '"
+        template="$1$" templateAdv="$1$"
+        uid="b1e5395c-d962-4199-b31e-8a8d89e729a4" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0" endsWithSimple="="
+        extractFromVarNameAdv="" extractFromVarNameSimple=""
+        extractType="1" extractTypeAdv="0" extractTypeSimple="1"
+        matchNumber="1" matchNumberAdv="1" matchNumberSimple="1"
+        name="IDBrowser"
+        refererUid="bd82ffd1-521f-46b9-b915-4f3f2a6633c4"
+        regExp="IDBrowser=(.*?)=" regExpAdv="" setDefaultValue="true"
+        startsWithSimple="IDBrowser=" template="$1$" templateAdv="$1$"
+        uid="81320ade-b849-4208-ad3b-e540b96387a4" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Content-Type" value="text/xml"/>
+    <header name="Cookie" value="IDBrowser=${IDBrowser}="/>
+    <header name="Host" value="qaauto996.prismhr.com"/>
+    <header name="Origin" value="https://qaauto996.prismhr.com"/>
+    <header name="Referer" value="https://qaauto996.prismhr.com/qaauto996net/"/>
+    <header name="sec-ch-ua" value="&quot; Not A;Brand&quot;;v=&quot;99&quot;, &quot;Chromium&quot;;v=&quot;100&quot;, &quot;Google Chrome&quot;;v=&quot;100&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="Sec-Fetch-Dest" value="empty"/>
+    <header name="Sec-Fetch-Mode" value="cors"/>
+    <header name="Sec-Fetch-Site" value="same-origin"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"/>
+    <header name="X-Requested-With" value="XMLHttpRequest"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Cache-Control: private&#xd;
+Content-Type: text/html; charset=utf-8&#xd;
+Server: Microsoft-IIS/10.0&#xd;
+X-AspNet-Version: 4.0.30319&#xd;
+Set-Cookie: IDBrowser=c96baeb428e94ee3ae680ff009ff947f3746f7d59fee195b8d055dfd77674cb2RXxOLml4ZaCuylva9dPAJX4bj0qOU24O34xQiCy4TF8=; expires=Tue, 03-May-2022 14:05:52 GMT; path=/; HttpOnly&#xd;
+X-Powered-By: ASP.NET&#xd;
+Date: Mon, 25 Apr 2022 14:05:53 GMT&#xd;
+Content-Length: 64340</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[<AJAX><field  name="text33v1" value=""/><field name="select104v1" value="w2"/><field name="select105v1" value="H"/><field name="checkbox106v1" value="true"/><field  name="text107v1" value="40.00"/><field  name="text108v1" value=""/><field  name="text109v1" value=""/><field  name="text110v1" value=""/><field  name="text111v1" value=""/><field  name="datepickstext112v1" value="01/01/2021"/><field  name="datepickstext113v1" value=""/><field  name="text114v1" value=""/><field  name="datepickstext115v1" value=""/><field name="checkbox116v1" value="false"/><field  name="text117v1" value=""/><field  name="text126v1" value=""/><field  name="text127v1" value=""/><field  name="textarea136v1" value=""/><field  name="ASSOC1ztext118v1z1z1" value=""/><field  name="ASSOC1ztext119v1z1z2" value=""/><field  name="ASSOC1ztext120v1z1z3" value=""/><field  name="ASSOC1ztext121v1z1z4" value=""/><field  name="ASSOC1ztext122v1z1z5" value=""/><field  name="ASSOC1ztext123v1z1z6" value=""/><field  name="ASSOC1ztext118v1z2z1" value=""/><field  name="ASSOC1ztext119v1z2z2" value=""/><field  name="ASSOC1ztext120v1z2z3" value=""/><field  name="ASSOC1ztext121v1z2z4" value=""/><field  name="ASSOC1ztext122v1z2z5" value=""/><field  name="ASSOC1ztext123v1z2z6" value=""/><field  name="ASSOC1ztext118v1z3z1" value=""/><field  name="ASSOC1ztext119v1z3z2" value=""/><field  name="ASSOC1ztext120v1z3z3" value=""/><field  name="ASSOC1ztext121v1z3z4" value=""/><field  name="ASSOC1ztext122v1z3z5" value=""/><field  name="ASSOC1ztext123v1z3z6" value=""/><field  name="ASSOC1ztext118v1z4z1" value=""/><field  name="ASSOC1ztext119v1z4z2" value=""/><field  name="ASSOC1ztext120v1z4z3" value=""/><field  name="ASSOC1ztext121v1z4z4" value=""/><field  name="ASSOC1ztext122v1z4z5" value=""/><field  name="ASSOC1ztext123v1z4z6" value=""/><field  name="ASSOC1ztext118v1z5z1" value=""/><field  name="ASSOC1ztext119v1z5z2" value=""/><field  name="ASSOC1ztext120v1z5z3" value=""/><field  name="ASSOC1ztext121v1z5z4" value=""/><field  name="ASSOC1ztext122v1z5z5" value=""/><field  name="ASSOC1ztext123v1z5z6" value=""/><field  name="ASSOC1ztext118v1z6z1" value=""/><field  name="ASSOC1ztext119v1z6z2" value=""/><field  name="ASSOC1ztext120v1z6z3" value=""/><field  name="ASSOC1ztext121v1z6z4" value=""/><field  name="ASSOC1ztext122v1z6z5" value=""/><field  name="ASSOC1ztext123v1z6z6" value=""/><field  name="ALTPAYRATES2ztext125v1z1z2" value=""/><field  name="ALTPAYRATES2ztext125v1z2z2" value=""/><field  name="ALTPAYRATES2ztext125v1z3z2" value=""/><field  name="ALTPAYRATES2ztext125v1z4z2" value=""/><field  name="ALTPAYRATES2ztext125v1z5z2" value=""/><field  name="ALTPAYRATES2ztext125v1z6z2" value=""/><field  name="ALTPAYRATES2ztext125v1z7z2" value=""/><field  name="ALTPAYRATES2ztext125v1z8z2" value=""/><field  name="dblastdb1formlayer" value=""/><field  name="ScreenRoot" value="EMPLOYEE.PER_MAINT.PAY"/><eventSource>button131v1</eventSource><eventType>click</eventType><clickPos>0,150,BUTTON,button131v1</clickPos><keyCodes>||||</keyCodes><dimensions>1903|1072|1903|922</dimensions><designbaisState>${designbaisState_b}</designbaisState><req>${regkey}</req><tabStore>${Tstore}</tabStore><captchaKey>null</captchaKey><clientClock>09:05:52</clientClock><clientDate>25.04.2022</clientDate><mobile>false</mobile><lastMVCell></lastMVCell><scrollbarWidth>17</scrollbarWidth></AJAX>]]></textPostContent>
+</http-action>

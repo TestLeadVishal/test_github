@@ -1,0 +1,62 @@
+<http-page executeResourcesDynamically="false"
+    name="/wave1/apis/obbe/rest2/qapthr998/PREHIRE.RS.ONBOARD.DETAILS/SAVE_I9_SECTION1"
+    playRequestsSequentially="true"
+    recordedArtifactZipFileName="team/vus/@o@b_143/%resources%/recorded-artifacts/25fd2558-1a87-4027-9396-f5d601cb1dd5.zip"
+    slaProfileEnabled="false" thinkTime="4106"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="25fd2558-1a87-4027-9396-f5d601cb1dd5">
+    <embedded-action>2d6a1894-b297-4200-bd8c-0568c9641dbf</embedded-action>
+</http-page>
+<http-action actionType="1"
+    contentType="application/json; charset=utf-8"
+    eTag="W/&quot;f85-xshqci8KE2B+vDnqTQ7WJvu5tN4&quot;"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST"
+    name="/wave1/apis/obbe/rest2/qapthr998/PREHIRE.RS.ONBOARD.DETAILS/SAVE_I9_SECTION1"
+    path="/wave1/apis/obbe/rest2/qapthr998/PREHIRE.RS.ONBOARD.DETAILS/SAVE_I9_SECTION1"
+    postType="4"
+    recordedArtifactZipFileName="team/vus/@o@b_143/%resources%/recorded-artifacts/25fd2558-1a87-4027-9396-f5d601cb1dd5.zip"
+    recordedResponseCode="200" responseSize="3973"
+    serverUid="qapthr998-ep.prismhr.com" slaProfileEnabled="false"
+    uid="2d6a1894-b297-4200-bd8c-0568c9641dbf" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_2d6a1894-b297-4200-bd8c-0568c9641dbf</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_2d6a1894-b297-4200-bd8c-0568c9641dbf.txt</requestContentFileDescription>
+    <header name="Accept" value="application/json"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Access-Control-Allow-Methods" value="POST, GET, OPTIONS, PUT"/>
+    <header name="Access-Control-Allow-Origin" value="*"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Content-Type" value="application/json"/>
+    <header name="Cookie" value="sails.sid=${sails_sid}; ESSauthToken=${ESSauthToken}; peoId=qapthr998; accountId=qapthr998; token=${t2}"/>
+    <header name="Host" value="qapthr998-ep.prismhr.com"/>
+    <header name="Origin" value="https://qapthr998-ep.prismhr.com"/>
+    <header name="Referer" value="https://qapthr998-ep.prismhr.com/obbe/"/>
+    <header name="sec-ch-ua" value="&quot; Not A;Brand&quot;;v=&quot;99&quot;, &quot;Chromium&quot;;v=&quot;101&quot;, &quot;Google Chrome&quot;;v=&quot;101&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="Sec-Fetch-Dest" value="empty"/>
+    <header name="Sec-Fetch-Mode" value="cors"/>
+    <header name="Sec-Fetch-Site" value="same-origin"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Fri, 20 May 2022 20:01:37 GMT&#xd;
+Content-Type: application/json; charset=utf-8&#xd;
+Content-Length: 3973&#xd;
+Connection: keep-alive&#xd;
+X-Powered-By: Express&#xd;
+Access-Control-Allow-Origin: *&#xd;
+requestId: 942358b3b937876ee4b4e8f5cba01cba&#xd;
+sessionId: m6nnfguEgw3tXG0pUfZzX0VHjswUOkRP&#xd;
+ETag: W/"f85-3rm84x1Oi6vOIQcQzMxzzdBKJ/U"&#xd;
+Strict-Transport-Security: max-age=31536000; includeSubDomains&#xd;
+Access-Control-Allow-Origin: https://qapthr998-ep.prismhr.com&#xd;
+Access-Control-Allow-Methods: POST, PUT, PATCH, DELETE, GET, OPTIONS, HEAD&#xd;
+Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept&#xd;
+Access-Control-Allow-Credentials: true</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[{"prehireId":"${phid}","step":"I9_SECTION1","workflow":{"prehireId":"${phid}","wftId":"LOAD_TESTING_OB_WORKFLOW.1.3","status":"","effectiveDate":"2019-01-01","hireDate":"2022-05-13","workflowDueDate":"2022-07-02","workflowCompletedDate":"","ssnRequired":0,"checksum":66383996,"prehireEmployeeId":"${employeeId}","clientId":"143","daysDueI9":-7,"daysDueWorkflow":43,"enableBeAfterSubmit":"N","electronicConsent":"","createDate":"2022-04-29","prehireStatus":"","closeDate":"","forms":[{"formId":"INITIAL_VISIT.1.0","formName":"Initial Visit","status":"","usage":"OB_INITIAL_VISIT","offerType":"INITIAL_VISIT","completeDate":"","dueDate":"2022-07-02"},{"formId":"RETURN_VISIT.1.0","formName":"Return Visit","status":"","usage":"OB_RETURN_VISIT","offerType":"RETURN_VISIT","completeDate":"","dueDate":"2022-07-02"},{"formId":"I9_SECTION_ONE.1.0","formName":"I-9","status":"","usage":"OB_I9_SECTION_ONE","offerType":"I9_SECTION_ONE","completeDate":"","dueDate":"2022-05-13"},{"formId":"EMPLOYEE_INFORMATION.1.0","formName":"Employee Information","status":"","usage":"OB_EMPLOYEE_INFORMATION","offerType":"EMPLOYEE_INFORMATION","completeDate":"","dueDate":"2022-05-13"},{"formId":"DISABILITY.1.0","formName":"Disability","status":"","usage":"OB_FORM_DISABILITY","offerType":"DISABILITY","completeDate":"","dueDate":"2022-07-02"},{"formId":"VETERAN_STATUS.1.0","formName":"Veteran Status","status":"","usage":"OB_FORM_VETERAN","offerType":"VETERAN","completeDate":"","dueDate":"2022-07-02"},{"formId":"EEO.1.0","formName":"Race/Ethnicity","status":"","usage":"OB_FORM_EEO","offerType":"EEO","completeDate":"","dueDate":"2022-07-02"},{"formId":"DIRECT_DEPOSIT.1.0","formName":"Direct Deposit","status":"","usage":"OB_FORM_DIRECT_DEPOSIT","offerType":"DIRECT_DEPOSIT","completeDate":"","dueDate":"2022-07-02"},{"formId":"I9_SECTION_TWO.1.0","formName":"I-9 Section 2","status":"","usage":"OB_I9_SECTION_TWO","offerType":"I9_SECTION_TWO","completeDate":"","dueDate":"2022-05-16"},{"formId":"ONBOARDING_SUMMARY.1.0","formName":"Onboarding Summary","status":"","usage":"OB_SUMMARY","offerType":"ONBOARDING_SUMMARY","completeDate":"","dueDate":"2022-07-02"},{"formId":"ONBOARDING_SUBMIT.1.0","formName":"Submit","status":"","usage":"OB_SUBMIT","offerType":"ONBOARDING_SUBMIT","completeDate":"","dueDate":"2022-07-02"}],"tax":{"taxFileUUID":[]},"identity":{"i9LastName":"","i9FirstName":"","i9MiddleInitial":"","i9OtherLastName":"","i9Address":"","i9AptNumber":"","i9City":"","i9State":"","i9Zip":"","i9BirthDate":"","i9SSN":"","i9Email":"","i9Phone":"","i9CitizenStatus":"Z01","i9AlienRegNo":"","i9AlienTypeNo":"","i9AlienExpDate":"N/A","i9FormI94No":"","i9ForeignPassportNo":"","i9CountryIssuance":"","i9EmployeeSignature":"","i9PreparerUsed":"N","i9NumberOfPreparers":"","i9PrismVersion":"","i9DocumentToProvide":"","i9EmployeeSignDate":"","i9MgrDenyReason":"","i9ApprovalId":"","i9FileUUID":[],"i9UseSupportingDocs":"N","i9SupportingDocs":{"code":[],"uuid":[]},"approvalPolicy":""},"employee":{"firstName":"Jim","middleName":"J","lastName":"${lastN}","nickname":"","birthDate":"1973-07-05","gender":"M","maritalStatus":"S","personalEmail":"a@b.com","homePhone":"5555555555","mobilePhone":"","ssn":"${OB_User143.ssn}","eeSymGeocode":"","eeAddress1":"","eeAddress2":"","eeZip":"","eeZip4":"","eeCity":"","eeCounty":"","eeState":"","mailAddress1":"","mailAddress2":"","mailZip":"","mailZip4":"","mailCity":"","mailState":"","mailUseResident":"","residentAddressSearch":"","latitude":"","longitude":"","transitCode":"","transitName":"","schoolDistrictCode":"","schoolDistrictName":"","psdCode":"","psdRate":"","municipalityCode":"","municipalityName":"","eeVertexGeocode":"","ethnicCode":"C","eeDisabled":"","veteranStatus":"","vietnamVet":"","disabledVet":"","recentSepVet":"","servMedalVet":"","othProtVet":"","aDutyBadgeVet":"","genderDesignation":"","preferredPronoun":"","emergencyContacts":[],"lockedFields":{},"requiredFields":{}}},"account":"qapthr998","peoId":"phr"}]]></textPostContent>
+</http-action>

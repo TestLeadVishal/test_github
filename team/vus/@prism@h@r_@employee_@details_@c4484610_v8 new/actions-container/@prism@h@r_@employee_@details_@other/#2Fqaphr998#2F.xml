@@ -1,0 +1,121 @@
+<http-page executeResourcesDynamically="false" name="/qaphr998/"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@prism@h@r_@employee_@details_@c4484610_v8 new/%resources%/recorded-artifacts/f189d060-22f1-4bea-8d19-def921baf88d.zip"
+    slaProfileEnabled="false" thinkTime="7042"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="f189d060-22f1-4bea-8d19-def921baf88d">
+    <embedded-action>a0d232e4-e252-45e2-887c-a692d87324e3</embedded-action>
+    <embedded-action>942be430-e923-47e7-9b32-517c520f9191</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="text/html; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/qaphr998/" path="/qaphr998/" postCharset=""
+    postType="4"
+    recordedArtifactZipFileName="team/vus/@prism@h@r_@employee_@details_@c4484610_v8 new/%resources%/recorded-artifacts/f189d060-22f1-4bea-8d19-def921baf88d.zip"
+    recordedResponseCode="200" responseSize="98955"
+    serverUid="qaphr998.prismhr.com" slaProfileEnabled="false"
+    uid="a0d232e4-e252-45e2-887c-a692d87324e3" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_629aa7d9-963d-4a47-85f6-7745154c5990.0.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_629aa7d9-963d-4a47-85f6-7745154c5990.txt</requestContentFileDescription>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="1" endsWithSimple=""
+        extractFromVarNameAdv="" extractFromVarNameSimple=""
+        extractType="1" extractTypeAdv="1" extractTypeSimple="0"
+        matchNumber="1" matchNumberAdv="1" matchNumberSimple="1"
+        name="IDBrowser" regExp="IDBrowser=(.*?);"
+        regExpAdv="IDBrowser=(.*?);" setDefaultValue="true"
+        startsWithSimple="" template="$1$" templateAdv="$1$"
+        uid="b773e0b0-f6b4-4bf3-8e7b-86007c38d945" xpath=""/>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0" endsWithSimple="'"
+        extractFromVarNameAdv="" extractFromVarNameSimple=""
+        extractType="0" extractTypeAdv="0" extractTypeSimple="0"
+        matchNumber="1" matchNumberAdv="1" matchNumberSimple="1"
+        name="designbaisState_b"
+        refererUid="f94699d3-93b8-42c9-bd05-3910ab53801d"
+        regExp="'designbaisState', '(.*?)'" regExpAdv=""
+        setDefaultValue="true" startsWithSimple="'designbaisState', '"
+        template="$1$" templateAdv="$1$"
+        uid="510010b6-2621-4096-bde7-e2bc992a2579" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
+    <urlPostParameter encodeName="true" encodeValue="true" name=""
+        recordRawValue="" separator="" value="" valueMode="USE_VALUE"/>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Content-Type" value="text/xml"/>
+    <header name="Cookie" value="DesignBAIS=machine=BRGJRUIQQZBQESBROORAVVEEUDTAPPBTAZWMPIVVNYQFXLX&amp;pooler=537&amp;ver=40; IDBrowser=${IDBrowser}"/>
+    <header name="Host" value="qaphr998.prismhr.com"/>
+    <header name="newrelic" value="eyJ2IjpbMCwxXSwiZCI6eyJ0eSI6IkJyb3dzZXIiLCJhYyI6IjIyMDMxNjEiLCJhcCI6IjEzODU5ODU0MDciLCJpZCI6IjUwMjFhNzk0OTJmZjY5Y2MiLCJ0ciI6IjZjZDgxYThmMTk1MDdkNWY1MDkwMjA4NDZjYWZiYTE5IiwidGkiOjE2NjM3NjE1NTgyNzksInRrIjoiMTk2MzgxNSJ9fQ=="/>
+    <header name="Origin" value="https://qaphr998.prismhr.com"/>
+    <header name="Referer" value="https://qaphr998.prismhr.com/qaphr998/?"/>
+    <header name="sec-ch-ua" value="&quot;Google Chrome&quot;;v=&quot;105&quot;, &quot;Not)A;Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;105&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="Sec-Fetch-Dest" value="empty"/>
+    <header name="Sec-Fetch-Mode" value="cors"/>
+    <header name="Sec-Fetch-Site" value="same-origin"/>
+    <header name="traceparent" value="00-6cd81a8f19507d5f509020846cafba19-5021a79492ff69cc-01"/>
+    <header name="tracestate" value="1963815@nr=0-1-2203161-1385985407-5021a79492ff69cc----1663761558279"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"/>
+    <header name="X-NewRelic-ID" value="VgQHUldVCRABV1BbAwYGXlcD"/>
+    <header name="X-Requested-With" value="XMLHttpRequest"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Cache-Control: private&#xd;
+Content-Type: text/html; charset=utf-8&#xd;
+Server: Microsoft-IIS/10.0&#xd;
+X-AspNet-Version: 4.0.30319&#xd;
+Set-Cookie: IDBrowser=6d05d9a1f4074b4285087a20d54132593746f7d59fee195b8d055dfd77674cb2LKzbussgUdOeO6hU7Hdr0J/6jRzkvlQRdpTeSWjBEwU=; expires=Thu, 29-Sep-2022 11:59:18 GMT; path=/; HttpOnly&#xd;
+X-NewRelic-App-Data: PxQFU1ZQCQUBR1BRBggDUVUJBQFASkE1VQBsEFlWR1NQEVAOX05yMTQZUwMIBkwdURcRGhUdB0hUHQYdU1RVWgBVD04VCRgQAAcJUFdQUgBXAFNUVgIABRJIBwNbQlI7&#xd;
+X-Powered-By: ASP.NET&#xd;
+Date: Wed, 21 Sep 2022 11:59:18 GMT&#xd;
+Content-Length: 98955</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[<AJAX><field  name="text33v1" value=""/><field  name="text81v1" value=""/><field  name="text82v1" value=""/><field  name="datepickstext83v1" value=""/><field name="select84v1" value=""/><field  name="textarea91v1" value=""/><field  name="ASSOC1ztext63v1z1z1" value=""/><field  name="ASSOC1zdatepickstext65v1z1z3" value=""/><field  name="ASSOC1ztext66v1z1z4" value=""/><field  name="ASSOC1ztext67v1z1z5" value=""/><field  name="ASSOC1zdatepickstext68v1z1z6" value=""/><field  name="ASSOC1ztext69v1z1z7" value=""/><field  name="ASSOC1ztext63v1z2z1" value=""/><field  name="ASSOC1zdatepickstext65v1z2z3" value=""/><field  name="ASSOC1ztext66v1z2z4" value=""/><field  name="ASSOC1ztext67v1z2z5" value=""/><field  name="ASSOC1zdatepickstext68v1z2z6" value=""/><field  name="ASSOC1ztext69v1z2z7" value=""/><field  name="ASSOC1ztext63v1z3z1" value=""/><field  name="ASSOC1zdatepickstext65v1z3z3" value=""/><field  name="ASSOC1ztext66v1z3z4" value=""/><field  name="ASSOC1ztext67v1z3z5" value=""/><field  name="ASSOC1zdatepickstext68v1z3z6" value=""/><field  name="ASSOC1ztext69v1z3z7" value=""/><field  name="ASSOC1ztext63v1z4z1" value=""/><field  name="ASSOC1zdatepickstext65v1z4z3" value=""/><field  name="ASSOC1ztext66v1z4z4" value=""/><field  name="ASSOC1ztext67v1z4z5" value=""/><field  name="ASSOC1zdatepickstext68v1z4z6" value=""/><field  name="ASSOC1ztext69v1z4z7" value=""/><field  name="ASSOC1ztext63v1z5z1" value=""/><field  name="ASSOC1zdatepickstext65v1z5z3" value=""/><field  name="ASSOC1ztext66v1z5z4" value=""/><field  name="ASSOC1ztext67v1z5z5" value=""/><field  name="ASSOC1zdatepickstext68v1z5z6" value=""/><field  name="ASSOC1ztext69v1z5z7" value=""/><field  name="ASSOC1ztext63v1z6z1" value=""/><field  name="ASSOC1zdatepickstext65v1z6z3" value=""/><field  name="ASSOC1ztext66v1z6z4" value=""/><field  name="ASSOC1ztext67v1z6z5" value=""/><field  name="ASSOC1zdatepickstext68v1z6z6" value=""/><field  name="ASSOC1ztext69v1z6z7" value=""/><field  name="ASSOC2ztext71v1z1z1" value=""/><field  name="ASSOC2ztext72v1z1z2" value=""/><field  name="ASSOC2ztext73v1z1z3" value=""/><field  name="ASSOC2zdatepickstext74v1z1z4" value=""/><field  name="ASSOC2zdatepickstext75v1z1z5" value=""/><field  name="ASSOC2ztext85v1z1z6" value=""/><field  name="ASSOC2ztext71v1z2z1" value=""/><field  name="ASSOC2ztext72v1z2z2" value=""/><field  name="ASSOC2ztext73v1z2z3" value=""/><field  name="ASSOC2zdatepickstext74v1z2z4" value=""/><field  name="ASSOC2zdatepickstext75v1z2z5" value=""/><field  name="ASSOC2ztext85v1z2z6" value=""/><field  name="ASSOC2ztext71v1z3z1" value=""/><field  name="ASSOC2ztext72v1z3z2" value=""/><field  name="ASSOC2ztext73v1z3z3" value=""/><field  name="ASSOC2zdatepickstext74v1z3z4" value=""/><field  name="ASSOC2zdatepickstext75v1z3z5" value=""/><field  name="ASSOC2ztext85v1z3z6" value=""/><field  name="ASSOC2ztext71v1z4z1" value=""/><field  name="ASSOC2ztext72v1z4z2" value=""/><field  name="ASSOC2ztext73v1z4z3" value=""/><field  name="ASSOC2zdatepickstext74v1z4z4" value=""/><field  name="ASSOC2zdatepickstext75v1z4z5" value=""/><field  name="ASSOC2ztext85v1z4z6" value=""/><field  name="ASSOC2ztext71v1z5z1" value=""/><field  name="ASSOC2ztext72v1z5z2" value=""/><field  name="ASSOC2ztext73v1z5z3" value=""/><field  name="ASSOC2zdatepickstext74v1z5z4" value=""/><field  name="ASSOC2zdatepickstext75v1z5z5" value=""/><field  name="ASSOC2ztext85v1z5z6" value=""/><field  name="ASSOC2ztext71v1z6z1" value=""/><field  name="ASSOC2ztext72v1z6z2" value=""/><field  name="ASSOC2ztext73v1z6z3" value=""/><field  name="ASSOC2zdatepickstext74v1z6z4" value=""/><field  name="ASSOC2zdatepickstext75v1z6z5" value=""/><field  name="ASSOC2ztext85v1z6z6" value=""/><field  name="ASSOC3ztext76v1z1z1" value=""/><field  name="ASSOC3ztext77v1z1z2" value=""/><field  name="ASSOC3zdatepickstext78v1z1z3" value=""/><field  name="ASSOC3zdatepickstext79v1z1z4" value=""/><field  name="ASSOC3ztext80v1z1z5" value=""/><field  name="ASSOC3ztext76v1z2z1" value=""/><field  name="ASSOC3ztext77v1z2z2" value=""/><field  name="ASSOC3zdatepickstext78v1z2z3" value=""/><field  name="ASSOC3zdatepickstext79v1z2z4" value=""/><field  name="ASSOC3ztext80v1z2z5" value=""/><field  name="ASSOC3ztext76v1z3z1" value=""/><field  name="ASSOC3ztext77v1z3z2" value=""/><field  name="ASSOC3zdatepickstext78v1z3z3" value=""/><field  name="ASSOC3zdatepickstext79v1z3z4" value=""/><field  name="ASSOC3ztext80v1z3z5" value=""/><field  name="ASSOC3ztext76v1z4z1" value=""/><field  name="ASSOC3ztext77v1z4z2" value=""/><field  name="ASSOC3zdatepickstext78v1z4z3" value=""/><field  name="ASSOC3zdatepickstext79v1z4z4" value=""/><field  name="ASSOC3ztext80v1z4z5" value=""/><field  name="ASSOC3ztext76v1z5z1" value=""/><field  name="ASSOC3ztext77v1z5z2" value=""/><field  name="ASSOC3zdatepickstext78v1z5z3" value=""/><field  name="ASSOC3zdatepickstext79v1z5z4" value=""/><field  name="ASSOC3ztext80v1z5z5" value=""/><field  name="ASSOC3ztext76v1z6z1" value=""/><field  name="ASSOC3ztext77v1z6z2" value=""/><field  name="ASSOC3zdatepickstext78v1z6z3" value=""/><field  name="ASSOC3zdatepickstext79v1z6z4" value=""/><field  name="ASSOC3ztext80v1z6z5" value=""/><field  name="dblastdb1formlayer" value=""/><field  name="ScreenRoot" value="EMPLOYEE.PER_MAINT.PROPERTY"/><eventSource>tdxspan37v1x1z10</eventSource><eventType>click</eventType><clickPos>1407,102,TD,tdxspan37v1x1z10,1332,102</clickPos><keyCodes>||||ASSOC1ztext63v1z1z1</keyCodes><dimensions>1536|755|1536|755</dimensions><designbaisState>${designbaisState_b}</designbaisState><req>${regkey.dbsuiID}</req><tabStore>${Tstore}</tabStore><captchaKey>null</captchaKey><clientClock>06:59:18</clientClock><clientDate>21.09.2022</clientDate><mobile>false</mobile><lastMVCell>ASSOC1ztext63v1z1z1</lastMVCell><scrollbarWidth>17</scrollbarWidth></AJAX>]]></textPostContent>
+</http-action>
+<http-action actionType="1" contentType="image/png"
+    eTag="&quot;c97c708b6e44d81:0&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Wed, 30 Mar 2022 19:44:18 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/qaphr998/images/dbexternalwindowpt.png"
+    path="/qaphr998/images/dbexternalwindowpt.png" postType="6"
+    recordedArtifactZipFileName="team/vus/@prism@h@r_@employee_@details_@c4484610_v8 new/%resources%/recorded-artifacts/f189d060-22f1-4bea-8d19-def921baf88d.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="qaphr998.prismhr.com" slaProfileEnabled="false"
+    uid="942be430-e923-47e7-9b32-517c520f9191" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_99e65f42-3240-4f41-847c-02b93f708a0b.png</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_99e65f42-3240-4f41-847c-02b93f708a0b.txt</requestContentFileDescription>
+    <header name="Accept" value="image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Cookie" value="DesignBAIS=machine=BRGJRUIQQZBQESBROORAVVEEUDTAPPBTAZWMPIVVNYQFXLX&amp;pooler=537&amp;ver=40; IDBrowser=${IDBrowser}"/>
+    <header name="Host" value="qaphr998.prismhr.com"/>
+    <header name="Referer" value="https://qaphr998.prismhr.com/qaphr998/?"/>
+    <header name="sec-ch-ua" value="&quot;Google Chrome&quot;;v=&quot;105&quot;, &quot;Not)A;Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;105&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="Sec-Fetch-Dest" value="image"/>
+    <header name="Sec-Fetch-Mode" value="no-cors"/>
+    <header name="Sec-Fetch-Site" value="same-origin"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Cache-Control: max-age=172800&#xd;
+Content-Type: image/png&#xd;
+Last-Modified: Wed, 30 Mar 2022 19:44:18 GMT&#xd;
+Accept-Ranges: bytes&#xd;
+ETag: "c97c708b6e44d81:0"&#xd;
+Server: Microsoft-IIS/10.0&#xd;
+X-Powered-By: ASP.NET&#xd;
+Date: Wed, 21 Sep 2022 11:59:18 GMT&#xd;
+Content-Length: 746</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

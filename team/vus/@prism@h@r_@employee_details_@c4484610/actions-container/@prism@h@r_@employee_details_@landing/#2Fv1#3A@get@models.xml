@@ -1,0 +1,49 @@
+<http-page enabled="false" executeResourcesDynamically="false"
+    name="/v1:GetModels" playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@prism@h@r_@employee_details_@c4484610/%resources%/recorded-artifacts/2f3481f8-4a83-491b-aedf-dac779ca6eca.zip"
+    slaProfileEnabled="false" thinkTime="2311"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="2f3481f8-4a83-491b-aedf-dac779ca6eca">
+    <embedded-action>a689b78c-de36-400e-a078-f3bd62a7fcf2</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="application/x-protobuf"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/v1:GetModels" path="/v1:GetModels" postType="2"
+    recordedArtifactZipFileName="team/vus/@prism@h@r_@employee_details_@c4484610/%resources%/recorded-artifacts/2f3481f8-4a83-491b-aedf-dac779ca6eca.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="optimizationguide-pa.googleapis.com"
+    slaProfileEnabled="false" uid="a689b78c-de36-400e-a078-f3bd62a7fcf2" useKeepAlive="false">
+    <binaryPostContentBase64><![CDATA[CgsIAhDVtP+hgDAgCApsCAgQ9a3l2YAwIAgyXwpZdHlwZS5nb29nbGVhcGlzLmNvbS9nb29nbGUuaW50ZXJuYWwuY2hyb21lLm9wdGltaXphdGlvbmd1aWRlLnYxLlBhZ2VFbnRpdGllc01vZGVsTWV0YWRhdGESAggLGAYqBWVuLVVT]]></binaryPostContentBase64>
+    <responsePageFileDescription>recorded-responses/res_a6b0f847-93bd-4932-9fd5-68801d95df78</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_a6b0f847-93bd-4932-9fd5-68801d95df78.txt</requestContentFileDescription>
+    <urlPostParameter encodeName="true" encodeValue="true" name="key"
+        recordRawValue="AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw"
+        separator="=" value="AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="no-cors"/>
+    <header name="sec-fetch-site" value="none"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="x-client-data" value="CIi2yQEIprbJAQjEtskBCKmdygEIx/zKAQiTocsBCOryywEInvnLAQjnhMwBCKWOzAEImY/MAQjPoswBCICkzAEIh6TMAQiypMwB"/>
+    <header name="content-type" value="application/x-protobuf"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+content-type: application/x-protobuf&#xd;
+content-disposition: attachment&#xd;
+vary: Origin&#xd;
+vary: X-Origin&#xd;
+vary: Referer&#xd;
+content-encoding: gzip&#xd;
+date: Mon, 18 Apr 2022 18:30:52 GMT&#xd;
+server: ESF&#xd;
+cache-control: private&#xd;
+content-length: 238&#xd;
+x-xss-protection: 0&#xd;
+x-frame-options: SAMEORIGIN&#xd;
+x-content-type-options: nosniff&#xd;
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

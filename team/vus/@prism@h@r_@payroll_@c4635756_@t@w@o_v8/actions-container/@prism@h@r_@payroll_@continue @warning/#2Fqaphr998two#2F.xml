@@ -1,0 +1,77 @@
+<http-page executeResourcesDynamically="false" name="/qaphr998two/"
+    playRequestsSequentially="true"
+    recordedArtifactZipFileName="team/vus/@prism@h@r_@payroll_@c4635756_@t@w@o_v8/%resources%/recorded-artifacts/bce02c2e-1597-4fc6-bb41-f0e734614a72.zip"
+    slaProfileEnabled="false" thinkTime="6031"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="bce02c2e-1597-4fc6-bb41-f0e734614a72">
+    <embedded-action>3ac2a739-02f2-4d03-a832-f909eee1601c</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="text/html; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/qaphr998two/" path="/qaphr998two/"
+    postCharset="" postType="4"
+    recordedArtifactZipFileName="team/vus/@prism@h@r_@payroll_@c4635756_@t@w@o_v8/%resources%/recorded-artifacts/bce02c2e-1597-4fc6-bb41-f0e734614a72.zip"
+    recordedResponseCode="200" recordedResponseTime="1432"
+    responseSize="884651" serverUid="qaphr998two.prismhr.com"
+    slaProfileEnabled="false" uid="3ac2a739-02f2-4d03-a832-f909eee1601c" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_cust_0d5a3a48-4713-4e73-93ad-6bf07f837005.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_cust_3ac2a739-02f2-4d03-a832-f909eee1601c.txt</requestContentFileDescription>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="1" endsWithSimple=""
+        extractFromVarNameAdv="" extractFromVarNameSimple=""
+        extractType="1" extractTypeAdv="1" extractTypeSimple="0"
+        matchNumber="1" matchNumberAdv="1" matchNumberSimple="1"
+        name="IDBrowser" regExp="IDBrowser=(.*?);"
+        regExpAdv="IDBrowser=(.*?);" setDefaultValue="true"
+        startsWithSimple="" template="$1$" templateAdv="$1$"
+        uid="8ad1c1e2-273a-4ab4-8846-dc6acaff452d" xpath=""/>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0" endsWithSimple="'"
+        extractFromVarNameAdv="" extractFromVarNameSimple=""
+        extractType="0" extractTypeAdv="0" extractTypeSimple="0"
+        matchNumber="1" matchNumberAdv="1" matchNumberSimple="1"
+        name="designbaisState_b"
+        refererUid="d3d0fb9b-70c8-4cd7-a4f7-d122be485161"
+        regExp="designbaisState', '(.*?)'" regExpAdv=""
+        setDefaultValue="true" startsWithSimple="designbaisState', '"
+        template="$1$" templateAdv="$1$"
+        uid="b1e5395c-d962-4199-b31e-8a8d89e729a4" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Content-Type" value="text/xml"/>
+    <header name="Cookie" value="DesignBAIS=machine=KAWXLIBYIGQPWGBQKBSPWVMNSQVYWBPGTBKEZDXPOUTFCKR&amp;ver=40&amp;pooler=862; IDBrowser=${IDBrowser}"/>
+    <header name="Host" value="qaphr998two.prismhr.com"/>
+    <header name="newrelic" value="eyJ2IjpbMCwxXSwiZCI6eyJ0eSI6IkJyb3dzZXIiLCJhYyI6IjIyMDMxNjEiLCJhcCI6IjEzODU5ODU0MDciLCJpZCI6IjYyYWY0NDAwOTZhYzExMmQiLCJ0ciI6IjA3YjcyMzVhMWQwM2VkZWZmYWZjN2RkNzc1YjQxZTQ2IiwidGkiOjE2NjI5OTE0MzI1NDIsInRrIjoiMTk2MzgxNSJ9fQ=="/>
+    <header name="Origin" value="https://qaphr998two.prismhr.com"/>
+    <header name="Referer" value="https://qaphr998two.prismhr.com/qaphr998two/"/>
+    <header name="sec-ch-ua" value="&quot;Google Chrome&quot;;v=&quot;105&quot;, &quot;Not)A;Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;105&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="Sec-Fetch-Dest" value="empty"/>
+    <header name="Sec-Fetch-Mode" value="cors"/>
+    <header name="Sec-Fetch-Site" value="same-origin"/>
+    <header name="traceparent" value="00-07b7235a1d03edeffafc7dd775b41e46-62af440096ac112d-01"/>
+    <header name="tracestate" value="1963815@nr=0-1-2203161-1385985407-62af440096ac112d----1662991432542"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"/>
+    <header name="X-NewRelic-ID" value="VgQHUldVCRABV1BbAwYGXlcD"/>
+    <header name="X-Requested-With" value="XMLHttpRequest"/>
+    <responseHeaders>HTTP/1.1 200 OK
+Cache-Control: private
+Content-Type: text/html; charset=utf-8
+Server: Microsoft-IIS/10.0
+X-AspNet-Version: 4.0.30319
+Set-Cookie: IDBrowser=f6fd8c38e3f6492ca1c60085994271fe3746f7d59fee195b8d055dfd77674cb2ykt2Vfhe9E4LrQ/189s/LC15b5V3b1HYJfLCUfiFfQA=; expires=Tue, 20-Sep-2022 16:11:54 GMT; path=/; HttpOnly
+X-NewRelic-App-Data: PxQFU1ZQCQUBR1BRBggDUVUJBQFASkE1VQBsEFlWR1NQEVAOX05yMTQZUwMIBkwdURcRGhUdB0hUHQcdUVVXVwhTAFcUFQUeEQEPBwVUVQBdBlZZUVMLAVNGTQRWXUQDOQ==
+X-Powered-By: ASP.NET
+Date: Mon, 12 Sep 2022 16:11:55 GMT
+Content-Length: 884651</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[<AJAX><field  name="tdxspan70v1x-1z3" value="1"/><field  name="" value=""/><field  name="textarea95v1" value=""/><field  name="dblastdb1formlayer" value=""/><field  name="text19v2" value=""/><field  name="dblastdbformlayer2" value=""/><field  name="ScreenRoot" value="HRPY.WORK_PAYROLL.DIALOG"/><eventSource>button24v2</eventSource><eventType>click</eventType><clickPos>451,594,BUTTON,button24v2,92.5,542.5</clickPos><keyCodes>||||</keyCodes><dimensions>1519|946|1519|706</dimensions><designbaisState>${designbaisState_b}</designbaisState><req>${regkey}</req><tabStore>${Tstore}</tabStore><captchaKey>null</captchaKey><clientClock>09:03:52</clientClock><clientDate>12.09.2022</clientDate><mobile>false</mobile><lastMVCell>ASSOC1ztext118v1z1z7</lastMVCell><scrollbarWidth>17</scrollbarWidth></AJAX>]]></textPostContent>
+</http-action>

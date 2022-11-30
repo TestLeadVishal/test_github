@@ -1,0 +1,54 @@
+<http-page enabled="false" executeResourcesDynamically="false"
+    name="/qaauto/_3" playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/mr1qa_qaauto_@login/%resources%/recorded-artifacts/8685fc4b-c144-4249-b94a-098d0519396c.zip"
+    slaProfileEnabled="false" thinkTime="18"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="8685fc4b-c144-4249-b94a-098d0519396c">
+    <embedded-action>90463908-62c6-4484-8921-cc03be773761</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="text/html; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/qaauto/" path="/qaauto/" postType="4"
+    recordedArtifactZipFileName="team/vus/mr1qa_qaauto_@login/%resources%/recorded-artifacts/8685fc4b-c144-4249-b94a-098d0519396c.zip"
+    recordedResponseCode="200" responseSize="8327"
+    serverUid="mr1qa.prismhr.com" slaProfileEnabled="false"
+    uid="90463908-62c6-4484-8921-cc03be773761" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_90463908-62c6-4484-8921-cc03be773761.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_90463908-62c6-4484-8921-cc03be773761.txt</requestContentFileDescription>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Content-Type" value="text/xml"/>
+    <header name="Cookie" value="IDBrowser=${IDBrowser}; dbnextkey=${dbnextkey}"/>
+    <header name="Host" value="mr1qa.prismhr.com"/>
+    <header name="Origin" value="https://mr1qa.prismhr.com"/>
+    <header name="Referer" value="https://mr1qa.prismhr.com/"/>
+    <header name="sec-ch-ua" value="&quot;Google Chrome&quot;;v=&quot;105&quot;, &quot;Not)A;Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;105&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="Sec-Fetch-Dest" value="empty"/>
+    <header name="Sec-Fetch-Mode" value="cors"/>
+    <header name="Sec-Fetch-Site" value="same-origin"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"/>
+    <header name="X-Requested-With" value="XMLHttpRequest"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Cache-Control: private&#xd;
+Content-Type: text/html; charset=utf-8&#xd;
+Server: Prism&#xd;
+X-AspNet-Version: 4.0.30319&#xd;
+Set-Cookie: dbnextkey=; expires=Fri, 09-Sep-2022 18:12:49 GMT; path=/; secure&#xd;
+Set-Cookie: IDBrowser=48a1e818528e44f98c93969f29444ea13746f7d59fee195b8d055dfd77674cb2vNOCcfNPDlilodhJs3++vw5Hzin5kJU+MetrNndVryY=; expires=Fri, 07-Oct-2022 18:12:49 GMT; path=/; secure; HttpOnly&#xd;
+Strict-Transport-Security: max-age=31536000; includeSubdomains&#xd;
+X-Content-Type-Options: nosniff&#xd;
+Referrer-Policy: strict-origin&#xd;
+Permissions-Policy: geolocation=(self), microphone=()&#xd;
+X-Powered-By: Prism&#xd;
+Date: Thu, 29 Sep 2022 18:12:48 GMT&#xd;
+Content-Length: 8327</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[<AJAX><field  name="ScreenRoot" value="HRPY.WORK_LOGIN"/><eventSource>bodyID</eventSource><eventType>onload</eventType><keyCodes>||||undefined</keyCodes><dimensions>1920|922|1920|922</dimensions><designbaisState>${designbaisState_b}</designbaisState><req>${regkey.dbsuiID}</req><tabStore>${Tstore}</tabStore><captchaKey>null</captchaKey><clientClock>13:12:49</clientClock><clientDate>29.09.2022</clientDate><mobile>false</mobile><lastMVCell></lastMVCell><scrollbarWidth>17</scrollbarWidth></AJAX>]]></textPostContent>
+</http-action>

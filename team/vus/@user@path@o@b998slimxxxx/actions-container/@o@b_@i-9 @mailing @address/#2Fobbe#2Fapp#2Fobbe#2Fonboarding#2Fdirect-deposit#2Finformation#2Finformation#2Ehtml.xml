@@ -1,0 +1,53 @@
+<http-page executeResourcesDynamically="false"
+    name="/obbe/app/obbe/onboarding/direct-deposit/information/information.html"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@user@path@o@b998slimxxxx/%resources%/recorded-artifacts/c8c3c5b6-d702-491c-9244-d899f96ef128.zip"
+    slaProfileEnabled="false" thinkTime="9"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="c8c3c5b6-d702-491c-9244-d899f96ef128">
+    <embedded-action>1d3c3208-3922-4d05-8529-f538298fe9ee</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="text/html"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/obbe/app/obbe/onboarding/direct-deposit/information/information.html"
+    path="/obbe/app/obbe/onboarding/direct-deposit/information/information.html"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@user@path@o@b998slimxxxx/%resources%/recorded-artifacts/c8c3c5b6-d702-491c-9244-d899f96ef128.zip"
+    recordedResponseCode="200" responseSize="2792"
+    serverUid="qaphr998-ep.prismhr.com" slaProfileEnabled="false"
+    uid="1d3c3208-3922-4d05-8529-f538298fe9ee" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_a10eded2-625d-439d-909c-0561df1829ce.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_a10eded2-625d-439d-909c-0561df1829ce.txt</requestContentFileDescription>
+    <header name="Accept" value="application/json, text/plain, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Cookie" value="ESSauthToken=${ESSauthToken}; peoId=qaphr998; accountId=qaphr998; sails.sid=${sails_sid}; token=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjgxMnBlcmZ0ZXN0MjExMDAzIiwiZnVsbE5hbWUiOiJKaW0gSiBBYnJzd2FhYWFmYWFhZCIsInR5cGUiOiJFIiwicGVvSWQiOiJxYXBocjk5OCIsImNsaWVudElkIjoiODEyIiwiaWF0IjoxNjY1NTA2ODM0fQ.LfSWXPQpqAMIxVSKGUbQRdICO7B6xYxPMJumZdgZ_xIf7YozntDX_AzztvfciBtffEaaGocm_XoxTtHQokRtyYVBWR90oLXJabP6KILl__ZfTI9H0Vz6ZIUNaygO8QDNhB50gG_CGmlvt1C_k7i5TdDyqRm_YPhlIeN_tGM_ZcrmL7YopP8nrkKgd0CSBY4G4PNICYKX646vQbttavv1rWp6xVxKWf8eUzYzzkBFPMtgWRkZEWDbUZTUlsnMtHJkXgAtV9eF5tmiDhy3TfRJxawMqF4N0dZT8CIsQfqenXJRxuSOyF_h5mk_DD2OE0ChODWE0gY_WQA6IJE8MzJt2vCfM2MRlkGBEHgRekWyTJjk8yTF0J2K_g4lPYg6JSOTmYpS2jp39nIJbgSP_Ol4jIiindkY6cmMRQqqtgSN8Fr4WxBpNs4Wzaff89tV1PWDzeIN-gio6IKoutqRr6PS9cIAqwBY1aN_oXbfp-ocnDW2LpK_zUHEtQCJp3bauEKGPR_q3Fn47hr5ZEC-ciCUfNqdvq_qGmrq-lMp6hpifpMRipWjJ3bpT3v3NMXCAwu7-PTojNXUaYbq2QJfhAWGALHNTtqipCLmEF9FnPL2flvo1EE2E9e9CW_vcmgrADdioWvboUsxksamkACdOHn2G3mOwLsDRuVYSs1eF-Nnrms"/>
+    <header name="Host" value="qaphr998-ep.prismhr.com"/>
+    <header name="Referer" value="https://qaphr998-ep.prismhr.com/obbe/"/>
+    <header name="sec-ch-ua" value="&quot;Google Chrome&quot;;v=&quot;105&quot;, &quot;Not)A;Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;105&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="Sec-Fetch-Dest" value="empty"/>
+    <header name="Sec-Fetch-Mode" value="cors"/>
+    <header name="Sec-Fetch-Site" value="same-origin"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Tue, 11 Oct 2022 16:51:02 GMT&#xd;
+Content-Type: text/html&#xd;
+Transfer-Encoding: chunked&#xd;
+Connection: keep-alive&#xd;
+Vary: Accept-Encoding&#xd;
+X-Request-ID: 574d00bfca9b1d91c28e81c7d55830eb&#xd;
+X-Request-ID: 5da062c15646834dfbbdd645d5cfd54f&#xd;
+Strict-Transport-Security: max-age=31536000; includeSubDomains&#xd;
+Access-Control-Allow-Methods: POST, PUT, PATCH, DELETE, GET, OPTIONS, HEAD&#xd;
+Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept&#xd;
+Access-Control-Allow-Credentials: true&#xd;
+Content-Encoding: gzip</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

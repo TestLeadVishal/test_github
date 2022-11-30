@@ -1,0 +1,564 @@
+<http-page executeResourcesDynamically="false" name="/qapthr998/cmd/sso"
+    playRequestsSequentially="true"
+    recordedArtifactZipFileName="team/vus/@prism@h@r_@employee_details_@c4484610/%resources%/recorded-artifacts/b111c1c1-1ca7-47a3-be0d-aa877d13281c.zip"
+    slaProfileEnabled="false" thinkTime="617"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="b111c1c1-1ca7-47a3-be0d-aa877d13281c">
+    <embedded-action>c9f89334-eb46-4d14-b168-2e5f2b232d9f</embedded-action>
+    <embedded-action>1217fcfa-1b54-4dad-8d67-30c0551954c1</embedded-action>
+    <embedded-action>0d645316-9dfb-4e47-a7dc-63185de95c84</embedded-action>
+    <embedded-action>38f2dc62-9ef7-4c31-9a95-794417faca0b</embedded-action>
+    <embedded-action>3d33daf9-e469-4c76-be14-65a112a6ac73</embedded-action>
+    <embedded-action>834a5e64-18de-4eb2-9396-21d1f4a17edf</embedded-action>
+    <embedded-action>80ec8083-f664-4a98-ba86-3048518e0035</embedded-action>
+    <embedded-action>5d15cba4-5102-45bc-bca7-8379c65efba9</embedded-action>
+    <embedded-action>3846c2c4-36b9-469f-bfad-656258565ddf</embedded-action>
+    <embedded-action>97536a07-ed50-4040-a2cc-3dce1bddeeb4</embedded-action>
+    <embedded-action>6c142649-48cf-4fcb-b450-828648db07ba</embedded-action>
+    <embedded-action>573cbcc3-051d-41bf-ad75-2076a54cfc1e</embedded-action>
+    <embedded-action>608c9320-74c8-4717-ae96-10719af85244</embedded-action>
+</http-page>
+<http-action actionType="1" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/qapthr998/cmd/sso" path="/qapthr998/cmd/sso"
+    postType="2"
+    recordedArtifactZipFileName="team/vus/@prism@h@r_@employee_details_@c4484610/%resources%/recorded-artifacts/b111c1c1-1ca7-47a3-be0d-aa877d13281c.zip"
+    recordedResponseCode="302" responseSize="0"
+    serverUid="qapthr998ee.prismhr.com" slaProfileEnabled="false"
+    uid="c9f89334-eb46-4d14-b168-2e5f2b232d9f" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_1109db0e-6f0a-4173-b332-cef80eee87dc</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_1109db0e-6f0a-4173-b332-cef80eee87dc.txt</requestContentFileDescription>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="1" endsWithSimple=""
+        extractFromVarNameAdv="" extractFromVarNameSimple=""
+        extractType="1" extractTypeAdv="1" extractTypeSimple="0"
+        matchNumber="1" matchNumberAdv="1" matchNumberSimple="1"
+        name="JSESSIONID" regExp="JSESSIONID=(.*?);"
+        regExpAdv="JSESSIONID=(.*?);" setDefaultValue="true"
+        startsWithSimple="" template="$1$" templateAdv="$1$"
+        uid="6f389cac-e618-47d6-a465-405818ce6da4" xpath=""/>
+    <parameter encodeName="true" encodeValue="true" name="key"
+        recordRawValue="qjsB29FJXhV953295570" separator="="
+        value="${Key}" valueMode="USE_VALUE"/>
+    <header name="Accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Host" value="qapthr998ee.prismhr.com"/>
+    <header name="Referer" value="https://qapthr998.prismhr.com/"/>
+    <header name="sec-ch-ua" value="&quot; Not A;Brand&quot;;v=&quot;99&quot;, &quot;Chromium&quot;;v=&quot;100&quot;, &quot;Google Chrome&quot;;v=&quot;100&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="Sec-Fetch-Dest" value="iframe"/>
+    <header name="Sec-Fetch-Mode" value="navigate"/>
+    <header name="Sec-Fetch-Site" value="same-site"/>
+    <header name="Upgrade-Insecure-Requests" value="1"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 302 &#xd;
+Set-Cookie: JSESSIONID=34CC41B2E13E0CECACAC3B477E7FE993; Path=/qapthr998; Secure; HttpOnly; SameSite=None&#xd;
+Location: /qapthr998/ess/employeeimage&#xd;
+Content-Length: 0&#xd;
+Date: Mon, 18 Apr 2022 18:32:22 GMT&#xd;
+Keep-Alive: timeout=20&#xd;
+Connection: keep-alive</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="2" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/qapthr998/ess/employeeimage"
+    path="/qapthr998/ess/employeeimage" postType="2"
+    recordedArtifactZipFileName="team/vus/@prism@h@r_@employee_details_@c4484610/%resources%/recorded-artifacts/b111c1c1-1ca7-47a3-be0d-aa877d13281c.zip"
+    recordedResponseCode="302"
+    refererUid="c9f89334-eb46-4d14-b168-2e5f2b232d9f" responseSize="0"
+    serverUid="qapthr998ee.prismhr.com" slaProfileEnabled="false"
+    uid="1217fcfa-1b54-4dad-8d67-30c0551954c1" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_774f050e-b4dc-4d46-8e28-77a7eef94979</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_774f050e-b4dc-4d46-8e28-77a7eef94979.txt</requestContentFileDescription>
+    <header name="Accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Cookie" value="JSESSIONID=34CC41B2E13E0CECACAC3B477E7FE993"/>
+    <header name="Host" value="qapthr998ee.prismhr.com"/>
+    <header name="Referer" value="https://qapthr998.prismhr.com/"/>
+    <header name="sec-ch-ua" value="&quot; Not A;Brand&quot;;v=&quot;99&quot;, &quot;Chromium&quot;;v=&quot;100&quot;, &quot;Google Chrome&quot;;v=&quot;100&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="Sec-Fetch-Dest" value="iframe"/>
+    <header name="Sec-Fetch-Mode" value="navigate"/>
+    <header name="Sec-Fetch-Site" value="same-site"/>
+    <header name="Upgrade-Insecure-Requests" value="1"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 302 &#xd;
+Location: /qapthr998/ess/employeeimage/&#xd;
+Content-Length: 0&#xd;
+Date: Mon, 18 Apr 2022 18:32:22 GMT&#xd;
+Keep-Alive: timeout=20&#xd;
+Connection: keep-alive</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="2" contentType="text/html"
+    eTag="W/&quot;1566-1644347322000&quot;"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Tue, 08 Feb 2022 19:08:42 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/qapthr998/ess/employeeimage/"
+    path="/qapthr998/ess/employeeimage/" postType="2"
+    recordedArtifactZipFileName="team/vus/@prism@h@r_@employee_details_@c4484610/%resources%/recorded-artifacts/b111c1c1-1ca7-47a3-be0d-aa877d13281c.zip"
+    recordedResponseCode="200"
+    refererUid="1217fcfa-1b54-4dad-8d67-30c0551954c1"
+    responseSize="1566" serverUid="qapthr998ee.prismhr.com"
+    slaProfileEnabled="false" uid="0d645316-9dfb-4e47-a7dc-63185de95c84" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_6e586bea-c3ac-4e5c-8c88-1404ebd478ba.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_6e586bea-c3ac-4e5c-8c88-1404ebd478ba.txt</requestContentFileDescription>
+    <header name="Accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Cookie" value="JSESSIONID=34CC41B2E13E0CECACAC3B477E7FE993"/>
+    <header name="Host" value="qapthr998ee.prismhr.com"/>
+    <header name="Referer" value="https://qapthr998.prismhr.com/"/>
+    <header name="sec-ch-ua" value="&quot; Not A;Brand&quot;;v=&quot;99&quot;, &quot;Chromium&quot;;v=&quot;100&quot;, &quot;Google Chrome&quot;;v=&quot;100&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="Sec-Fetch-Dest" value="iframe"/>
+    <header name="Sec-Fetch-Mode" value="navigate"/>
+    <header name="Sec-Fetch-Site" value="same-site"/>
+    <header name="Upgrade-Insecure-Requests" value="1"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 &#xd;
+Accept-Ranges: bytes&#xd;
+ETag: W/"1566-1644347322000"&#xd;
+Last-Modified: Tue, 08 Feb 2022 19:08:42 GMT&#xd;
+Content-Type: text/html&#xd;
+Content-Length: 1566&#xd;
+Date: Mon, 18 Apr 2022 18:32:22 GMT&#xd;
+Keep-Alive: timeout=20&#xd;
+Connection: keep-alive</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="application/javascript"
+    eTag="W/&quot;95786-1644347322000&quot;"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Tue, 08 Feb 2022 19:08:42 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/qapthr998/ess/employeeimage/js/components/jquery/jquery-1.11.1.min.js"
+    path="/qapthr998/ess/employeeimage/js/components/jquery/jquery-1.11.1.min.js"
+    postType="2"
+    recordedArtifactZipFileName="team/vus/@prism@h@r_@employee_details_@c4484610/%resources%/recorded-artifacts/b111c1c1-1ca7-47a3-be0d-aa877d13281c.zip"
+    recordedResponseCode="200"
+    refererUid="0d645316-9dfb-4e47-a7dc-63185de95c84"
+    responseSize="95786" serverUid="qapthr998ee.prismhr.com"
+    slaProfileEnabled="false" uid="38f2dc62-9ef7-4c31-9a95-794417faca0b" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_ee9723ca-84de-4bad-9e39-5da728a0daca</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_ee9723ca-84de-4bad-9e39-5da728a0daca.txt</requestContentFileDescription>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Cookie" value="JSESSIONID=${JSESSIONID}"/>
+    <header name="Host" value="qapthr998ee.prismhr.com"/>
+    <header name="Referer" value="https://qapthr998ee.prismhr.com/qapthr998/ess/employeeimage/"/>
+    <header name="sec-ch-ua" value="&quot; Not A;Brand&quot;;v=&quot;99&quot;, &quot;Chromium&quot;;v=&quot;100&quot;, &quot;Google Chrome&quot;;v=&quot;100&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="Sec-Fetch-Dest" value="script"/>
+    <header name="Sec-Fetch-Mode" value="no-cors"/>
+    <header name="Sec-Fetch-Site" value="same-origin"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 &#xd;
+Accept-Ranges: bytes&#xd;
+ETag: W/"95786-1644347322000"&#xd;
+Last-Modified: Tue, 08 Feb 2022 19:08:42 GMT&#xd;
+Content-Type: application/javascript&#xd;
+Content-Length: 95786&#xd;
+Date: Mon, 18 Apr 2022 18:32:22 GMT&#xd;
+Keep-Alive: timeout=20&#xd;
+Connection: keep-alive</responseHeaders>
+    <record-html-infos extractorContent="" extractorOccurence="1"
+        extractorRegExp="false" htmlType="1"/>
+</http-action>
+<http-action actionType="1" contentType="text/css"
+    eTag="W/&quot;1762-1644347322000&quot;"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Tue, 08 Feb 2022 19:08:42 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/qapthr998/ess/employeeimage/css/employeeimage.css"
+    path="/qapthr998/ess/employeeimage/css/employeeimage.css"
+    postType="2"
+    recordedArtifactZipFileName="team/vus/@prism@h@r_@employee_details_@c4484610/%resources%/recorded-artifacts/b111c1c1-1ca7-47a3-be0d-aa877d13281c.zip"
+    recordedResponseCode="200" responseSize="1762"
+    serverUid="qapthr998ee.prismhr.com" slaProfileEnabled="false"
+    uid="3d33daf9-e469-4c76-be14-65a112a6ac73" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_8a715e47-7646-45f6-93bf-75960e9f003d.css</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_8a715e47-7646-45f6-93bf-75960e9f003d.txt</requestContentFileDescription>
+    <header name="Accept" value="text/css,*/*;q=0.1"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Cookie" value="JSESSIONID=${JSESSIONID}"/>
+    <header name="Host" value="qapthr998ee.prismhr.com"/>
+    <header name="Referer" value="https://qapthr998ee.prismhr.com/qapthr998/ess/employeeimage/"/>
+    <header name="sec-ch-ua" value="&quot; Not A;Brand&quot;;v=&quot;99&quot;, &quot;Chromium&quot;;v=&quot;100&quot;, &quot;Google Chrome&quot;;v=&quot;100&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="Sec-Fetch-Dest" value="style"/>
+    <header name="Sec-Fetch-Mode" value="no-cors"/>
+    <header name="Sec-Fetch-Site" value="same-origin"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 &#xd;
+Accept-Ranges: bytes&#xd;
+ETag: W/"1762-1644347322000"&#xd;
+Last-Modified: Tue, 08 Feb 2022 19:08:42 GMT&#xd;
+Content-Type: text/css&#xd;
+Content-Length: 1762&#xd;
+Date: Mon, 18 Apr 2022 18:32:22 GMT&#xd;
+Keep-Alive: timeout=20&#xd;
+Connection: keep-alive</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="text/css"
+    eTag="W/&quot;99961-1644347322000&quot;"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Tue, 08 Feb 2022 19:08:42 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/qapthr998/ess/employeeimage/js/components/bootstrap/css/bootstrap.min.css"
+    path="/qapthr998/ess/employeeimage/js/components/bootstrap/css/bootstrap.min.css"
+    postType="2"
+    recordedArtifactZipFileName="team/vus/@prism@h@r_@employee_details_@c4484610/%resources%/recorded-artifacts/b111c1c1-1ca7-47a3-be0d-aa877d13281c.zip"
+    recordedResponseCode="200" responseSize="99961"
+    serverUid="qapthr998ee.prismhr.com" slaProfileEnabled="false"
+    uid="834a5e64-18de-4eb2-9396-21d1f4a17edf" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_e60b5e1e-dbe6-4921-b1ea-ea4094da5433.css</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_e60b5e1e-dbe6-4921-b1ea-ea4094da5433.txt</requestContentFileDescription>
+    <header name="Accept" value="text/css,*/*;q=0.1"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Cookie" value="JSESSIONID=${JSESSIONID}"/>
+    <header name="Host" value="qapthr998ee.prismhr.com"/>
+    <header name="Referer" value="https://qapthr998ee.prismhr.com/qapthr998/ess/employeeimage/"/>
+    <header name="sec-ch-ua" value="&quot; Not A;Brand&quot;;v=&quot;99&quot;, &quot;Chromium&quot;;v=&quot;100&quot;, &quot;Google Chrome&quot;;v=&quot;100&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="Sec-Fetch-Dest" value="style"/>
+    <header name="Sec-Fetch-Mode" value="no-cors"/>
+    <header name="Sec-Fetch-Site" value="same-origin"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 &#xd;
+Accept-Ranges: bytes&#xd;
+ETag: W/"99961-1644347322000"&#xd;
+Last-Modified: Tue, 08 Feb 2022 19:08:42 GMT&#xd;
+Content-Type: text/css&#xd;
+Content-Length: 99961&#xd;
+Date: Mon, 18 Apr 2022 18:32:22 GMT&#xd;
+Keep-Alive: timeout=20&#xd;
+Connection: keep-alive</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="application/javascript"
+    eTag="W/&quot;2728-1644347322000&quot;"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Tue, 08 Feb 2022 19:08:42 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/qapthr998/ess/employeeimage/app/directives.js"
+    path="/qapthr998/ess/employeeimage/app/directives.js" postType="2"
+    recordedArtifactZipFileName="team/vus/@prism@h@r_@employee_details_@c4484610/%resources%/recorded-artifacts/b111c1c1-1ca7-47a3-be0d-aa877d13281c.zip"
+    recordedResponseCode="200"
+    refererUid="0d645316-9dfb-4e47-a7dc-63185de95c84"
+    responseSize="2728" serverUid="qapthr998ee.prismhr.com"
+    slaProfileEnabled="false" uid="80ec8083-f664-4a98-ba86-3048518e0035" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_76846bb6-99df-4e46-895b-5b5b5f661c27</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_76846bb6-99df-4e46-895b-5b5b5f661c27.txt</requestContentFileDescription>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Cookie" value="JSESSIONID=${JSESSIONID}"/>
+    <header name="Host" value="qapthr998ee.prismhr.com"/>
+    <header name="Referer" value="https://qapthr998ee.prismhr.com/qapthr998/ess/employeeimage/"/>
+    <header name="sec-ch-ua" value="&quot; Not A;Brand&quot;;v=&quot;99&quot;, &quot;Chromium&quot;;v=&quot;100&quot;, &quot;Google Chrome&quot;;v=&quot;100&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="Sec-Fetch-Dest" value="script"/>
+    <header name="Sec-Fetch-Mode" value="no-cors"/>
+    <header name="Sec-Fetch-Site" value="same-origin"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 &#xd;
+Accept-Ranges: bytes&#xd;
+ETag: W/"2728-1644347322000"&#xd;
+Last-Modified: Tue, 08 Feb 2022 19:08:42 GMT&#xd;
+Content-Type: application/javascript&#xd;
+Content-Length: 2728&#xd;
+Date: Mon, 18 Apr 2022 18:32:22 GMT&#xd;
+Keep-Alive: timeout=20&#xd;
+Connection: keep-alive</responseHeaders>
+    <record-html-infos extractorContent="" extractorOccurence="5"
+        extractorRegExp="false" htmlType="1"/>
+</http-action>
+<http-action actionType="1" contentType="application/javascript"
+    eTag="W/&quot;427-1644347322000&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Tue, 08 Feb 2022 19:08:42 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/qapthr998/ess/employeeimage/app/app.js"
+    path="/qapthr998/ess/employeeimage/app/app.js" postType="2"
+    recordedArtifactZipFileName="team/vus/@prism@h@r_@employee_details_@c4484610/%resources%/recorded-artifacts/b111c1c1-1ca7-47a3-be0d-aa877d13281c.zip"
+    recordedResponseCode="200"
+    refererUid="0d645316-9dfb-4e47-a7dc-63185de95c84" responseSize="427"
+    serverUid="qapthr998ee.prismhr.com" slaProfileEnabled="false"
+    uid="5d15cba4-5102-45bc-bca7-8379c65efba9" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_99ee453d-809b-4f85-8a71-14b7ef7b5f5a</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_99ee453d-809b-4f85-8a71-14b7ef7b5f5a.txt</requestContentFileDescription>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Cookie" value="JSESSIONID=${JSESSIONID}"/>
+    <header name="Host" value="qapthr998ee.prismhr.com"/>
+    <header name="Referer" value="https://qapthr998ee.prismhr.com/qapthr998/ess/employeeimage/"/>
+    <header name="sec-ch-ua" value="&quot; Not A;Brand&quot;;v=&quot;99&quot;, &quot;Chromium&quot;;v=&quot;100&quot;, &quot;Google Chrome&quot;;v=&quot;100&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="Sec-Fetch-Dest" value="script"/>
+    <header name="Sec-Fetch-Mode" value="no-cors"/>
+    <header name="Sec-Fetch-Site" value="same-origin"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 &#xd;
+Accept-Ranges: bytes&#xd;
+ETag: W/"427-1644347322000"&#xd;
+Last-Modified: Tue, 08 Feb 2022 19:08:42 GMT&#xd;
+Content-Type: application/javascript&#xd;
+Content-Length: 427&#xd;
+Date: Mon, 18 Apr 2022 18:32:22 GMT&#xd;
+Keep-Alive: timeout=20&#xd;
+Connection: keep-alive</responseHeaders>
+    <record-html-infos extractorContent="" extractorOccurence="3"
+        extractorRegExp="false" htmlType="1"/>
+</http-action>
+<http-action actionType="1" contentType="application/javascript"
+    eTag="W/&quot;1686-1644347322000&quot;"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Tue, 08 Feb 2022 19:08:42 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/qapthr998/ess/employeeimage/app/controllers.js"
+    path="/qapthr998/ess/employeeimage/app/controllers.js" postType="2"
+    recordedArtifactZipFileName="team/vus/@prism@h@r_@employee_details_@c4484610/%resources%/recorded-artifacts/b111c1c1-1ca7-47a3-be0d-aa877d13281c.zip"
+    recordedResponseCode="200"
+    refererUid="0d645316-9dfb-4e47-a7dc-63185de95c84"
+    responseSize="1686" serverUid="qapthr998ee.prismhr.com"
+    slaProfileEnabled="false" uid="3846c2c4-36b9-469f-bfad-656258565ddf" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_74cfbbad-2795-4aa9-b1e5-af285eb8b843</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_74cfbbad-2795-4aa9-b1e5-af285eb8b843.txt</requestContentFileDescription>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Cookie" value="JSESSIONID=${JSESSIONID}"/>
+    <header name="Host" value="qapthr998ee.prismhr.com"/>
+    <header name="Referer" value="https://qapthr998ee.prismhr.com/qapthr998/ess/employeeimage/"/>
+    <header name="sec-ch-ua" value="&quot; Not A;Brand&quot;;v=&quot;99&quot;, &quot;Chromium&quot;;v=&quot;100&quot;, &quot;Google Chrome&quot;;v=&quot;100&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="Sec-Fetch-Dest" value="script"/>
+    <header name="Sec-Fetch-Mode" value="no-cors"/>
+    <header name="Sec-Fetch-Site" value="same-origin"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 &#xd;
+Accept-Ranges: bytes&#xd;
+ETag: W/"1686-1644347322000"&#xd;
+Last-Modified: Tue, 08 Feb 2022 19:08:42 GMT&#xd;
+Content-Type: application/javascript&#xd;
+Content-Length: 1686&#xd;
+Date: Mon, 18 Apr 2022 18:32:22 GMT&#xd;
+Keep-Alive: timeout=20&#xd;
+Connection: keep-alive</responseHeaders>
+    <record-html-infos extractorContent="" extractorOccurence="4"
+        extractorRegExp="false" htmlType="1"/>
+</http-action>
+<http-action actionType="1" contentType="application/javascript"
+    eTag="W/&quot;1507-1644347322000&quot;"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Tue, 08 Feb 2022 19:08:42 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/qapthr998/ess/employeeimage/app/services.js"
+    path="/qapthr998/ess/employeeimage/app/services.js" postType="2"
+    recordedArtifactZipFileName="team/vus/@prism@h@r_@employee_details_@c4484610/%resources%/recorded-artifacts/b111c1c1-1ca7-47a3-be0d-aa877d13281c.zip"
+    recordedResponseCode="200"
+    refererUid="0d645316-9dfb-4e47-a7dc-63185de95c84"
+    responseSize="1507" serverUid="qapthr998ee.prismhr.com"
+    slaProfileEnabled="false" uid="97536a07-ed50-4040-a2cc-3dce1bddeeb4" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_92a776f0-8f1f-48cf-b20f-9b0a44f1506a</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_92a776f0-8f1f-48cf-b20f-9b0a44f1506a.txt</requestContentFileDescription>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Cookie" value="JSESSIONID=${JSESSIONID}"/>
+    <header name="Host" value="qapthr998ee.prismhr.com"/>
+    <header name="Referer" value="https://qapthr998ee.prismhr.com/qapthr998/ess/employeeimage/"/>
+    <header name="sec-ch-ua" value="&quot; Not A;Brand&quot;;v=&quot;99&quot;, &quot;Chromium&quot;;v=&quot;100&quot;, &quot;Google Chrome&quot;;v=&quot;100&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="Sec-Fetch-Dest" value="script"/>
+    <header name="Sec-Fetch-Mode" value="no-cors"/>
+    <header name="Sec-Fetch-Site" value="same-origin"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 &#xd;
+Accept-Ranges: bytes&#xd;
+ETag: W/"1507-1644347322000"&#xd;
+Last-Modified: Tue, 08 Feb 2022 19:08:42 GMT&#xd;
+Content-Type: application/javascript&#xd;
+Content-Length: 1507&#xd;
+Date: Mon, 18 Apr 2022 18:32:22 GMT&#xd;
+Keep-Alive: timeout=20&#xd;
+Connection: keep-alive</responseHeaders>
+    <record-html-infos extractorContent="" extractorOccurence="6"
+        extractorRegExp="false" htmlType="1"/>
+</http-action>
+<http-action actionType="1" contentType="application/javascript"
+    eTag="W/&quot;104453-1644347322000&quot;"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Tue, 08 Feb 2022 19:08:42 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/qapthr998/ess/employeeimage/js/components/angular/angular.min.js"
+    path="/qapthr998/ess/employeeimage/js/components/angular/angular.min.js"
+    postType="2"
+    recordedArtifactZipFileName="team/vus/@prism@h@r_@employee_details_@c4484610/%resources%/recorded-artifacts/b111c1c1-1ca7-47a3-be0d-aa877d13281c.zip"
+    recordedResponseCode="200"
+    refererUid="0d645316-9dfb-4e47-a7dc-63185de95c84"
+    responseSize="104453" serverUid="qapthr998ee.prismhr.com"
+    slaProfileEnabled="false" uid="6c142649-48cf-4fcb-b450-828648db07ba" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_63e524f8-96b6-4d20-8232-76ea312d465b</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_63e524f8-96b6-4d20-8232-76ea312d465b.txt</requestContentFileDescription>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Cookie" value="JSESSIONID=${JSESSIONID}"/>
+    <header name="Host" value="qapthr998ee.prismhr.com"/>
+    <header name="Referer" value="https://qapthr998ee.prismhr.com/qapthr998/ess/employeeimage/"/>
+    <header name="sec-ch-ua" value="&quot; Not A;Brand&quot;;v=&quot;99&quot;, &quot;Chromium&quot;;v=&quot;100&quot;, &quot;Google Chrome&quot;;v=&quot;100&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="Sec-Fetch-Dest" value="script"/>
+    <header name="Sec-Fetch-Mode" value="no-cors"/>
+    <header name="Sec-Fetch-Site" value="same-origin"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 &#xd;
+Accept-Ranges: bytes&#xd;
+ETag: W/"104453-1644347322000"&#xd;
+Last-Modified: Tue, 08 Feb 2022 19:08:42 GMT&#xd;
+Content-Type: application/javascript&#xd;
+Content-Length: 104453&#xd;
+Date: Mon, 18 Apr 2022 18:32:22 GMT&#xd;
+Keep-Alive: timeout=20&#xd;
+Connection: keep-alive</responseHeaders>
+    <record-html-infos extractorContent="" extractorOccurence="2"
+        extractorRegExp="false" htmlType="1"/>
+</http-action>
+<http-action actionType="1"
+    contentType="application/json;charset=ISO-8859-1"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/qapthr998/cmd/userinfo"
+    path="/qapthr998/cmd/userinfo" postType="2"
+    recordedArtifactZipFileName="team/vus/@prism@h@r_@employee_details_@c4484610/%resources%/recorded-artifacts/b111c1c1-1ca7-47a3-be0d-aa877d13281c.zip"
+    recordedResponseCode="200" responseSize="739"
+    serverUid="qapthr998ee.prismhr.com" slaProfileEnabled="false"
+    uid="573cbcc3-051d-41bf-ad75-2076a54cfc1e" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_f52e1242-89a8-4cf8-9eb4-c21ff0b6e5b5</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_f52e1242-89a8-4cf8-9eb4-c21ff0b6e5b5.txt</requestContentFileDescription>
+    <header name="Accept" value="application/json, text/plain, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Cache-Control" value="max-age=0"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Cookie" value="JSESSIONID=${JSESSIONID}"/>
+    <header name="Host" value="qapthr998ee.prismhr.com"/>
+    <header name="If-Modified-Since" value="0"/>
+    <header name="Referer" value="https://qapthr998ee.prismhr.com/qapthr998/ess/employeeimage/"/>
+    <header name="sec-ch-ua" value="&quot; Not A;Brand&quot;;v=&quot;99&quot;, &quot;Chromium&quot;;v=&quot;100&quot;, &quot;Google Chrome&quot;;v=&quot;100&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="Sec-Fetch-Dest" value="empty"/>
+    <header name="Sec-Fetch-Mode" value="cors"/>
+    <header name="Sec-Fetch-Site" value="same-origin"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 &#xd;
+Content-Type: application/json;charset=ISO-8859-1&#xd;
+Content-Length: 739&#xd;
+Date: Mon, 18 Apr 2022 18:32:22 GMT&#xd;
+Keep-Alive: timeout=20&#xd;
+Connection: keep-alive</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/jpeg"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Thu, 19 May 2022 18:00:11 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/qapthr998/cmd/readimage"
+    path="/qapthr998/cmd/readimage" postType="2"
+    recordedArtifactZipFileName="team/vus/@prism@h@r_@employee_details_@c4484610/%resources%/recorded-artifacts/b111c1c1-1ca7-47a3-be0d-aa877d13281c.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="qapthr998ee.prismhr.com" slaProfileEnabled="false"
+    uid="608c9320-74c8-4717-ae96-10719af85244" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_048dc2c4-4076-4fbf-a50f-f7e38ed259f1</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_048dc2c4-4076-4fbf-a50f-f7e38ed259f1.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="employee_id"
+        recordRawValue="L06612" separator="=" value="L06612" valueMode="USE_VALUE"/>
+    <header name="Accept" value="image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Cookie" value="JSESSIONID=${JSESSIONID}"/>
+    <header name="Host" value="qapthr998ee.prismhr.com"/>
+    <header name="Referer" value="https://qapthr998ee.prismhr.com/qapthr998/ess/employeeimage/"/>
+    <header name="sec-ch-ua" value="&quot; Not A;Brand&quot;;v=&quot;99&quot;, &quot;Chromium&quot;;v=&quot;100&quot;, &quot;Google Chrome&quot;;v=&quot;100&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="Sec-Fetch-Dest" value="image"/>
+    <header name="Sec-Fetch-Mode" value="no-cors"/>
+    <header name="Sec-Fetch-Site" value="same-origin"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 &#xd;
+Cache-Control: no-cache&#xd;
+Last-Modified: Thu, 14 Apr 2022 12:56:54 GMT&#xd;
+Content-Disposition:  attachment; filename="L06612.jpg"&#xd;
+Content-Type: image/jpeg&#xd;
+Content-Length: 5761&#xd;
+Date: Mon, 18 Apr 2022 18:32:22 GMT&#xd;
+Keep-Alive: timeout=20&#xd;
+Connection: keep-alive</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

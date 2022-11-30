@@ -1,0 +1,50 @@
+<http-page enabled="false" executeResourcesDynamically="false"
+    name="/qaauto996net/_4" playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/cc996_resettax and @pay/%resources%/recorded-artifacts/063ac758-8417-4224-8f63-14f133a55532.zip"
+    slaProfileEnabled="false" thinkTime="14"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="063ac758-8417-4224-8f63-14f133a55532">
+    <embedded-action>eee6be7b-8c73-463f-a24f-4c1227deac62</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="text/html; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/qaauto996net/" path="/qaauto996net/"
+    postType="4"
+    recordedArtifactZipFileName="team/vus/cc996_resettax and @pay/%resources%/recorded-artifacts/063ac758-8417-4224-8f63-14f133a55532.zip"
+    recordedResponseCode="200" responseSize="6276"
+    serverUid="qaauto996.prismhr.com" slaProfileEnabled="false"
+    uid="eee6be7b-8c73-463f-a24f-4c1227deac62" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_a6fe0242-00bc-4912-ba2e-1fef81b520c7.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_a6fe0242-00bc-4912-ba2e-1fef81b520c7.txt</requestContentFileDescription>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Content-Type" value="text/xml"/>
+    <header name="Cookie" value="IDBrowser=${IDBrowser}="/>
+    <header name="Host" value="qaauto996.prismhr.com"/>
+    <header name="Origin" value="https://qaauto996.prismhr.com"/>
+    <header name="Referer" value="https://qaauto996.prismhr.com/qaauto996net/"/>
+    <header name="sec-ch-ua" value="&quot; Not A;Brand&quot;;v=&quot;99&quot;, &quot;Chromium&quot;;v=&quot;100&quot;, &quot;Google Chrome&quot;;v=&quot;100&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="Sec-Fetch-Dest" value="empty"/>
+    <header name="Sec-Fetch-Mode" value="cors"/>
+    <header name="Sec-Fetch-Site" value="same-origin"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"/>
+    <header name="X-Requested-With" value="XMLHttpRequest"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Cache-Control: private&#xd;
+Content-Type: text/html; charset=utf-8&#xd;
+Server: Microsoft-IIS/10.0&#xd;
+X-AspNet-Version: 4.0.30319&#xd;
+Set-Cookie: IDBrowser=c96baeb428e94ee3ae680ff009ff947f3746f7d59fee195b8d055dfd77674cb2kbP6hvh9q65MeH2+Ptsx8LiuFhD5sQ55tQ3FWKqEZwo=; expires=Tue, 03-May-2022 14:04:50 GMT; path=/; HttpOnly&#xd;
+X-Powered-By: ASP.NET&#xd;
+Date: Mon, 25 Apr 2022 14:04:50 GMT&#xd;
+Content-Length: 6276</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[<AJAX><field  name="text105v1" value="${996Auto_emp_2023.employeeId}"/><field  name="ScreenRoot" value="EMPLOYEE.PER_MAINT"/><eventSource>text105v1</eventSource><eventType>blur</eventType><keyCodes>||||text107v1</keyCodes><dimensions>1920|922|1920|922</dimensions><designbaisState>${designbaisState_b}</designbaisState><req>${regkey}</req><tabStore>${Tstore}</tabStore><captchaKey>null</captchaKey><clientClock>09:04:50</clientClock><clientDate>25.04.2022</clientDate><mobile>false</mobile><lastMVCell></lastMVCell><scrollbarWidth>17</scrollbarWidth></AJAX>]]></textPostContent>
+</http-action>

@@ -1,0 +1,49 @@
+<http-page executeResourcesDynamically="false"
+    name="/jserrors/1/a6100e7bce" playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@prism@h@r_@employee_@details_@c4484610_@t@w@o_v8/%resources%/recorded-artifacts/a0ad449e-be4f-4d9c-a0d5-6680a63254eb.zip"
+    slaProfileEnabled="false" thinkTime="937"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="a0ad449e-be4f-4d9c-a0d5-6680a63254eb">
+    <embedded-action>deaca03a-2492-4802-84f5-60c444151924</embedded-action>
+    <embedded-action>a76dad97-3932-420a-8ba0-1bce6b7eac85</embedded-action>
+</http-page>
+<http-action actionType="1" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/nel/" path="/nel/" postType="4"
+    recordedArtifactZipFileName="team/vus/@prism@h@r_@employee_@details_@c4484610_@t@w@o_v8/%resources%/recorded-artifacts/a0ad449e-be4f-4d9c-a0d5-6680a63254eb.zip"
+    recordedResponseCode="204" responseSize="0"
+    serverUid="e2c14.gcp.gvt2.com" slaProfileEnabled="false"
+    uid="deaca03a-2492-4802-84f5-60c444151924" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_deaca03a-2492-4802-84f5-60c444151924</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_18c40983-4a00-4c37-bb65-1da08d80cbfc.txt</requestContentFileDescription>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="content-type" value="application/json; charset=utf-8"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 204&#xd;
+date: Fri, 09 Sep 2022 14:52:47 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[{"entries":[{"http_response_code":200,"network_changed":false,"protocol":"SPDY","request_age_ms":66915,"request_elapsed_ms":1394,"sample_rate":0.05,"server_ip":"[::1]:8090","status":"ok","url":"https://accounts.google.com/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard","was_proxied":true}],"reporter":"chrome"}]]></textPostContent>
+</http-action>
+<http-action actionType="1" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/nel/" path="/nel/" postType="4"
+    recordedArtifactZipFileName="team/vus/@prism@h@r_@employee_@details_@c4484610_@t@w@o_v8/%resources%/recorded-artifacts/a0ad449e-be4f-4d9c-a0d5-6680a63254eb.zip"
+    recordedResponseCode="204" responseSize="0"
+    serverUid="e2c14.gcp.gvt2.com" slaProfileEnabled="false"
+    uid="a76dad97-3932-420a-8ba0-1bce6b7eac85" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_a76dad97-3932-420a-8ba0-1bce6b7eac85</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_595d1bca-1bba-4cad-a233-868072797310.txt</requestContentFileDescription>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="content-type" value="application/json; charset=utf-8"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 204&#xd;
+date: Fri, 09 Sep 2022 14:52:47 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[{"entries":[{"http_response_code":200,"network_changed":false,"protocol":"SPDY","request_age_ms":66915,"request_elapsed_ms":1394,"sample_rate":0.05,"server_ip":"[::1]:8090","status":"ok","url":"https://accounts.google.com/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard","was_proxied":true}],"reporter":"chrome"}]]></textPostContent>
+</http-action>

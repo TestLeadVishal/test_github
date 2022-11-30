@@ -1,0 +1,7 @@
+<while-action name="while" uid="83028b80-17e0-46fc-9c85-374e717a8672">
+    <embedded-action>4cb6eb11-b001-4809-8a9b-7e365bfdb571</embedded-action>
+    <conditions match-type="1">
+        <condition operand1="${Finalization complete}"
+            operand2="${Payroll_Finalize}" operator="NOT_EQUALS"/>
+    </conditions>
+</while-action>

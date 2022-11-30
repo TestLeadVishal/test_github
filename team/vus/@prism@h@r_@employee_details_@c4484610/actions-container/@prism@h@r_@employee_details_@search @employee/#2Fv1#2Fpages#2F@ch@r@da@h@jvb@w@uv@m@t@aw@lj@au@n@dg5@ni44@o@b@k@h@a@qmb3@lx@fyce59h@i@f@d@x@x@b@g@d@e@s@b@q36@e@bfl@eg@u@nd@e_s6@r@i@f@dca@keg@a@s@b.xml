@@ -1,0 +1,53 @@
+<http-page enabled="false" executeResourcesDynamically="false"
+    name="/v1/pages/ChRDaHJvbWUvMTAwLjAuNDg5Ni44OBKHAQmb3LxFyce59hIFDXXBGDESBQ36EBflEgUNdE_s6RIFDcaKegASB"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@prism@h@r_@employee_details_@c4484610/%resources%/recorded-artifacts/a4d44ce8-27d1-4ab8-8e45-17812464187a.zip"
+    slaProfileEnabled="false" thinkTime="323"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="a4d44ce8-27d1-4ab8-8e45-17812464187a">
+    <embedded-action>aec6d5c2-15a0-4b83-812d-bae30673a0cb</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="text/plain"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/v1/pages/ChRDaHJvbWUvMTAwLjAuNDg5Ni44OBKHAQmb3LxFyce59hIFDXXBGDESBQ36EBflEgUNdE_s6RIFDcaKegASBQ2JTL4SEgUNv71oqBIFDaPYgtoSBQ2aCyQ2EgUN2HgMHhIFDYPSz-USBQ10T-zpEgUNr4mYKRIFDdxBvy0SBQ0Ph7HFEgUNhK2nfBIFDfyM-aUSBQ02_qTlEgUNr4mYKQ=="
+    path="/v1/pages/ChRDaHJvbWUvMTAwLjAuNDg5Ni44OBKHAQmb3LxFyce59hIFDXXBGDESBQ36EBflEgUNdE_s6RIFDcaKegASBQ2JTL4SEgUNv71oqBIFDaPYgtoSBQ2aCyQ2EgUN2HgMHhIFDYPSz-USBQ10T-zpEgUNr4mYKRIFDdxBvy0SBQ0Ph7HFEgUNhK2nfBIFDfyM-aUSBQ02_qTlEgUNr4mYKQ=="
+    postType="2"
+    recordedArtifactZipFileName="team/vus/@prism@h@r_@employee_details_@c4484610/%resources%/recorded-artifacts/a4d44ce8-27d1-4ab8-8e45-17812464187a.zip"
+    recordedResponseCode="200" responseSize="220"
+    serverUid="content-autofill.googleapis.com"
+    slaProfileEnabled="false" uid="aec6d5c2-15a0-4b83-812d-bae30673a0cb" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_132c2256-af8a-4221-a638-b4ec83cb06d3</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_132c2256-af8a-4221-a638-b4ec83cb06d3.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="alt"
+        recordRawValue="proto" separator="=" value="proto" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="no-cors"/>
+    <header name="x-goog-encode-response-if-executable" value="base64"/>
+    <header name="sec-fetch-site" value="none"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="x-goog-api-key" value="AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw"/>
+    <header name="x-client-data" value="CIi2yQEIprbJAQjEtskBCKmdygEIx/zKAQiTocsBCOryywEInvnLAQjnhMwBCKWOzAEImY/MAQjPoswBCICkzAEIh6TMAQiypMwB"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+cache-control: private,max-age=604800&#xd;
+content-type: text/plain&#xd;
+x-goog-safety-encoding: base64&#xd;
+x-goog-safety-content-type: application/x-protobuf&#xd;
+vary: Origin&#xd;
+vary: X-Origin&#xd;
+vary: Referer&#xd;
+content-encoding: gzip&#xd;
+date: Mon, 18 Apr 2022 18:32:16 GMT&#xd;
+server: ESF&#xd;
+content-length: 142&#xd;
+x-xss-protection: 0&#xd;
+x-frame-options: SAMEORIGIN&#xd;
+x-content-type-options: nosniff&#xd;
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

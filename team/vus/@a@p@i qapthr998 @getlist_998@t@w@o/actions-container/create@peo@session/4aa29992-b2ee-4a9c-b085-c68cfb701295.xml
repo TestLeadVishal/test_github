@@ -1,0 +1,34 @@
+<http-action actionType="1" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/api-1.28/services/rest/login/createPeoSession"
+    path="/api-1.27/services/rest/login/createPeoSession" postCharset=""
+    postType="1" serverUid="perfapi.prismhr.com"
+    slaProfileEnabled="false" uid="4aa29992-b2ee-4a9c-b085-c68cfb701295" useKeepAlive="true">
+    <binaryPostContentBase64><![CDATA[dXNlcm5hbWUJW25hbWU9dXNlcm5hbWUsdmFsdWU9QVBJVVNFUixlbmNvZGVOYW1lPWZhbHNlLGVuY29kZVZhbHVlPWZhbHNlXQpwYXNzd29yZAlbbmFtZT1wYXNzd29yZCx2YWx1ZT1ZTkY4cUc0N0toUGdzYyxlbmNvZGVOYW1lPWZhbHNlLGVuY29kZVZhbHVlPWZhbHNlXQpwZW9JZAlbbmFtZT1wZW9JZCx2YWx1ZT0xKlFBUFRIUjk5OCxlbmNvZGVOYW1lPWZhbHNlLGVuY29kZVZhbHVlPWZhbHNlXQ==]]></binaryPostContentBase64>
+    <responsePageFileDescription>team/vus/@a@p@i qapthr998 @getlist_998@t@w@o/%resources%/recorded-responses/res_4aa29992-b2ee-4a9c-b085-c68cfb701295.0</responsePageFileDescription>
+    <requestContentFileDescription>team/vus/@a@p@i qapthr998 @getlist_998@t@w@o/%resources%/recorded-requests/req_4aa29992-b2ee-4a9c-b085-c68cfb701295.txt</requestContentFileDescription>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0"
+        endsWithSimple="&quot;" extractFromVarNameAdv=""
+        extractFromVarNameSimple="" extractType="0" extractTypeAdv="0"
+        extractTypeSimple="0" matchNumber="1" matchNumberAdv="1"
+        matchNumberSimple="1" name="KEY"
+        refererUid="87d53e5f-a8d0-48df-bbd3-e71cbdbb06d0"
+        regExp="&quot;sessionId&quot;:&quot;(.*?)&quot;" regExpAdv=""
+        setDefaultValue="true"
+        startsWithSimple="&quot;sessionId&quot;:&quot;" template="$1$"
+        templateAdv="$1$" uid="80bd9daf-d349-4a40-a97b-c821c05a0aec" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
+    <parameter encodeName="true" encodeValue="true" name="username"
+        recordRawValue="" separator="=" value="APIUSER" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="password"
+        recordRawValue="" separator="=" value="Oe#JqL1I88Hc" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="peoId"
+        recordRawValue="" separator="=" value="1*QAPHR998" valueMode="USE_VALUE"/>
+    <header name="Content-Type" value="application/x-www-form-urlencoded"/>
+    <responseHeaders/>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

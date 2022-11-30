@@ -1,0 +1,235 @@
+<http-page executeResourcesDynamically="false"
+    name="/obbe/assets/client/obbe/onboarding/employee-information/emergency-contacts/emergency-contacts."
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@o@b_@standard_@c4484603/%resources%/recorded-artifacts/7f87ee88-d327-4e38-ae35-de57002da102.zip"
+    slaProfileEnabled="false" thinkTime="37"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="7f87ee88-d327-4e38-ae35-de57002da102">
+    <embedded-action>4c829882-6062-412d-970d-e5883b6a3842</embedded-action>
+    <embedded-action>43a8173d-d5c4-4fa0-a2bd-844d830e5d05</embedded-action>
+    <embedded-action>6be69fdc-533c-44b7-bb7b-4fa94c5f679d</embedded-action>
+    <embedded-action>00f02f9a-66bf-49a4-920f-f63d1a26c1da</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="text/html"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/obbe/assets/client/obbe/onboarding/employee-information/emergency-contacts/emergency-contacts.html"
+    path="/obbe/assets/client/obbe/onboarding/employee-information/emergency-contacts/emergency-contacts.html"
+    postCharset="" postType="2"
+    recordedArtifactZipFileName="team/vus/@o@b_@standard_@c4484603/%resources%/recorded-artifacts/7f87ee88-d327-4e38-ae35-de57002da102.zip"
+    recordedResponseCode="200" responseSize="17789"
+    serverUid="qapthr998-ep.prismhr.com" slaProfileEnabled="false"
+    uid="4c829882-6062-412d-970d-e5883b6a3842" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_4c829882-6062-412d-970d-e5883b6a3842.0.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_4c829882-6062-412d-970d-e5883b6a3842.txt</requestContentFileDescription>
+    <header name="Accept" value="application/json, text/plain, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Host" value="qapthr998-ep.prismhr.com"/>
+    <header name="Referer" value="https://qapthr998-ep.prismhr.com/obbe/"/>
+    <header name="sec-ch-ua" value="&quot; Not A;Brand&quot;;v=&quot;99&quot;, &quot;Chromium&quot;;v=&quot;101&quot;, &quot;Google Chrome&quot;;v=&quot;101&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="Sec-Fetch-Dest" value="empty"/>
+    <header name="Sec-Fetch-Mode" value="cors"/>
+    <header name="Sec-Fetch-Site" value="same-origin"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"/>
+    <header name="Cookie" value="ESSauthToken=${ESSauthToken}; peoId=${Peo_ID}; accountId=qapthr998; token=${Token}; sails.sid=${sails_sid}"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Thu, 26 May 2022 09:48:11 GMT&#xd;
+Content-Type: text/html&#xd;
+Transfer-Encoding: chunked&#xd;
+Connection: keep-alive&#xd;
+Vary: Accept-Encoding&#xd;
+X-Request-ID: 9ea657b8ceca8566dc232610ccc6452b&#xd;
+X-Request-ID: 03987516a4429b0c5798b74b131559da&#xd;
+Strict-Transport-Security: max-age=31536000; includeSubDomains&#xd;
+Access-Control-Allow-Methods: POST, PUT, PATCH, DELETE, GET, OPTIONS, HEAD&#xd;
+Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept&#xd;
+Access-Control-Allow-Credentials: true&#xd;
+Content-Encoding: gzip</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1"
+    contentType="application/json; charset=utf-8"
+    eTag="W/&quot;de4-4b/MDpwagHxHwo/Eq87ZQvLm4aQ&quot;"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST"
+    name="/wave1/apis/obbe/rest2/qapthr998/PREHIRE.RS.ONBOARD.DETAILS/GET_EMPLOYEE_INFO"
+    path="/wave1/apis/obbe/rest2/qapthr998/PREHIRE.RS.ONBOARD.DETAILS/GET_EMPLOYEE_INFO"
+    postCharset="" postType="4"
+    recordedArtifactZipFileName="team/vus/@o@b_@standard_@c4484603/%resources%/recorded-artifacts/7f87ee88-d327-4e38-ae35-de57002da102.zip"
+    recordedResponseCode="200" responseSize="3556"
+    serverUid="qapthr998-ep.prismhr.com" slaProfileEnabled="false"
+    uid="43a8173d-d5c4-4fa0-a2bd-844d830e5d05" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_43a8173d-d5c4-4fa0-a2bd-844d830e5d05.0.0</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_43a8173d-d5c4-4fa0-a2bd-844d830e5d05.txt</requestContentFileDescription>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0" endsWithSimple=""
+        extractFromVarNameAdv="" extractFromVarNameSimple=""
+        extractType="4" extractTypeAdv="0" extractTypeSimple="4"
+        jsonpath="$.response.workflow.prehireId" matchNumber="1"
+        matchNumberAdv="1" matchNumberSimple="1" name="PreHire_ID"
+        refererUid="8be96e32-3b99-4f1c-8c38-b524e4b4419b" regExp="(.*)"
+        regExpAdv="" setDefaultValue="true" startsWithSimple=""
+        template="$1$" templateAdv="$1$"
+        uid="3cfe0957-f4c2-4fe7-9080-20a085accf86" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0" endsWithSimple=""
+        extractFromVarNameAdv="" extractFromVarNameSimple=""
+        extractType="4" extractTypeAdv="0" extractTypeSimple="4"
+        jsonpath="$.response.workflow.checksum" matchNumber="1"
+        matchNumberAdv="1" matchNumberSimple="1" name="CS5"
+        refererUid="8be96e32-3b99-4f1c-8c38-b524e4b4419b" regExp="(.*)"
+        regExpAdv="" setDefaultValue="true" startsWithSimple=""
+        template="$1$" templateAdv="$1$"
+        uid="9b9e8db3-e8b8-4317-adad-1aa98af41eb4" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
+    <header name="Accept" value="application/json"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Access-Control-Allow-Methods" value="POST, GET, OPTIONS, PUT"/>
+    <header name="Access-Control-Allow-Origin" value="*"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Content-Type" value="application/json"/>
+    <header name="Host" value="qapthr998-ep.prismhr.com"/>
+    <header name="Origin" value="https://qapthr998-ep.prismhr.com"/>
+    <header name="Referer" value="https://qapthr998-ep.prismhr.com/obbe/"/>
+    <header name="sec-ch-ua" value="&quot; Not A;Brand&quot;;v=&quot;99&quot;, &quot;Chromium&quot;;v=&quot;101&quot;, &quot;Google Chrome&quot;;v=&quot;101&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="Sec-Fetch-Dest" value="empty"/>
+    <header name="Sec-Fetch-Mode" value="cors"/>
+    <header name="Sec-Fetch-Site" value="same-origin"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"/>
+    <header name="Cookie" value="ESSauthToken=${ESSauthToken}; peoId=${Peo_ID}; accountId=qapthr998; token=${Token}; sails.sid=${sails_sid}"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Thu, 26 May 2022 09:48:11 GMT&#xd;
+Content-Type: application/json; charset=utf-8&#xd;
+Content-Length: 3556&#xd;
+Connection: keep-alive&#xd;
+X-Powered-By: Express&#xd;
+Access-Control-Allow-Origin: *&#xd;
+requestId: 5bbfecf591a7482ca1491fcb942e1e25&#xd;
+sessionId: 55nC6hg13rSpY0kwpweIRGkMygnjsm98&#xd;
+ETag: W/"de4-99zDTXrTBW5FIs5yOCJLIJKcBq8"&#xd;
+Strict-Transport-Security: max-age=31536000; includeSubDomains&#xd;
+Access-Control-Allow-Origin: https://qapthr998-ep.prismhr.com&#xd;
+Access-Control-Allow-Methods: POST, PUT, PATCH, DELETE, GET, OPTIONS, HEAD&#xd;
+Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept&#xd;
+Access-Control-Allow-Credentials: true</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[{"prehireId":"${PreHire_ID}","account":"qapthr998","peoId":"phr"}]]></textPostContent>
+</http-action>
+<http-action actionType="1" contentType="application/javascript"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/data/guide.js/b6602fee-9d57-43f2-6c32-50f724229d3f"
+    path="/data/guide.js/b6602fee-9d57-43f2-6c32-50f724229d3f"
+    postType="2"
+    recordedArtifactZipFileName="team/vus/@o@b_@standard_@c4484603/%resources%/recorded-artifacts/7f87ee88-d327-4e38-ae35-de57002da102.zip"
+    recordedResponseCode="200" responseSize="434"
+    serverUid="app.pendo.io" slaProfileEnabled="false"
+    uid="6be69fdc-533c-44b7-bb7b-4fa94c5f679d" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_6be69fdc-533c-44b7-bb7b-4fa94c5f679d</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_6be69fdc-533c-44b7-bb7b-4fa94c5f679d.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="jzb"
+        recordRawValue="eJyVUNFuqkAQ_ZXNkvTJguC9evWNtFo1LbZAn80II24Cu-uy2JjGf3ewyu1juwlhcuacM2fmkx9ELawyi5xPuP9noNFsLdZ2NPT7_tBxnLfwNZ3H4_E_3uOQZaqR9sL9jjemJGRnra4nnrcHbXeGOveoXW1EXe2Mm6nKU5sNes7XT8mNApMLWXhY6VIdEalAU6DMjpmSFjJbk3WFFnKwwCdd1LYUP4lrVIlEu_kTkpUCr_lJTMC2KcsIqpa2FBVbsiWY-gPoIX37TnLlhI_hS8LSOIyS2TRmdyxJV3H4NGWrGQvT-TRKemwRPbid7hkLuA34hbgEWTRQXNLL9XvCT93xu-3_b0pNDYamhR2FILpaqw-GXv-vF_SDgHwPaGqhZAu7_mDk-mttVM5PpzNcjqCF"
+        separator="="
+        value="eJyVUNFuqkAQ_ZXNkvTJguC9evWNtFo1LbZAn80II24Cu-uy2JjGf3ewyu1juwlhcuacM2fmkx9ELawyi5xPuP9noNFsLdZ2NPT7_tBxnLfwNZ3H4_E_3uOQZaqR9sL9jjemJGRnra4nnrcHbXeGOveoXW1EXe2Mm6nKU5sNes7XT8mNApMLWXhY6VIdEalAU6DMjpmSFjJbk3WFFnKwwCdd1LYUP4lrVIlEu_kTkpUCr_lJTMC2KcsIqpa2FBVbsiWY-gPoIX37TnLlhI_hS8LSOIyS2TRmdyxJV3H4NGWrGQvT-TRKemwRPbid7hkLuA34hbgEWTRQXNLL9XvCT93xu-3_b0pNDYamhR2FILpaqw-GXv-vF_SDgHwPaGqhZAu7_mDk-mttVM5PpzNcjqCF" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v"
+        recordRawValue="2.137.1_prod" separator="=" value="2.137.1_prod" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="ct"
+        recordRawValue="1653558491383" separator="="
+        value="1653558491383" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="acc"
+        recordRawValue="UUFQVEhSOTk4" separator="=" value="UUFQVEhSOTk4" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="no-cors"/>
+    <header name="referer" value="https://qapthr998-ep.prismhr.com/"/>
+    <header name="sec-ch-ua" value="&quot; Not A;Brand&quot;;v=&quot;99&quot;, &quot;Chromium&quot;;v=&quot;101&quot;, &quot;Google Chrome&quot;;v=&quot;101&quot;"/>
+    <header name="sec-fetch-site" value="cross-site"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="script"/>
+    <header name="accept" value="*/*"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+date: Thu, 26 May 2022 09:48:11 GMT&#xd;
+content-type: application/javascript&#xd;
+vary: Accept-Encoding&#xd;
+access-control-allow-credentials: false&#xd;
+access-control-allow-headers: Origin,Accept,Content-Type,Authorization&#xd;
+access-control-allow-methods: GET,POST&#xd;
+access-control-allow-origin: *&#xd;
+access-control-max-age: 600&#xd;
+x-content-type-options: nosniff&#xd;
+content-encoding: gzip&#xd;
+via: 1.1 google&#xd;
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/gif"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/data/ptm.gif/b6602fee-9d57-43f2-6c32-50f724229d3f"
+    path="/data/ptm.gif/b6602fee-9d57-43f2-6c32-50f724229d3f"
+    postType="2"
+    recordedArtifactZipFileName="team/vus/@o@b_@standard_@c4484603/%resources%/recorded-artifacts/7f87ee88-d327-4e38-ae35-de57002da102.zip"
+    recordedResponseCode="200" responseSize="0" serverUid="app.pendo.io"
+    slaProfileEnabled="false" uid="00f02f9a-66bf-49a4-920f-f63d1a26c1da" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_00f02f9a-66bf-49a4-920f-f63d1a26c1da.gif</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_00f02f9a-66bf-49a4-920f-f63d1a26c1da.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="v"
+        recordRawValue="2.137.1_prod" separator="=" value="2.137.1_prod" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="ct"
+        recordRawValue="1653558491385" separator="="
+        value="1653558491385" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="jzb"
+        recordRawValue="eJztlvtT2kAQx_8V5viVE8LLwG8gqY1VsIBa6zhOHkdy9h7xciC0w__uhtSKr2l0cKydMANJbo_97t7uXT5nv5BeRAS10UR60xiVkKvkdUzUhaYcho1mo9ZomPVWxTQrJTSjMdVSXVAf_mHUaxFRE01ivd00KkazWCx-7RyOPw9bLRM8OZ4np0Knk9cNU8VgJNQ6itvl8pUT6VCBBZNoK1I05qHa8iQvS9cl5WJ6kcKVjvKpCMqER0wuCClzhzIYcHxfkTgJPVIyilEbUnJUQHR6F4BU92g8HvRhxioUuHoM5iFXiwJ8MYhyRy1W94oGoS6IALtUJHIwWVPNYCnElDFISmuVaCxLiC9s4ZM5atfAYUiZ__vRgEgcRYS2GOF3QfTs40cReJJho1pILizAzSxi4H1dDIqSVQwKuzmBkbUztp9Y07tC4YlUHLtTraVIqvNX4WqmZTzo2Pt2f7fT6w2t0eiRPujGnoxIUkIaS-Zokg5kiQByzZD6kY2PbevkWenNtYx1cLg_OLUsbPc_DYYHnSdX_INkXH91385jLCSOYJ9DVxXWbpNt01z9ch-bt7uoVeBETLEnhQb3b7ulEhGHCqLwhE3BlEGscV8Mmj6r2ObqOeh3B51hD7bRR-2m15fsJSoPTqQXNUZysL_5eZ697TbW44UoVFi6mEuXMoJnlFynQzNgAQYhzXFIfZ-IzUXVHfROX7UbHr5Rlg8_4GMOnID6ZK4LKHlO9ceOa4Na6lmnD8hoftv7bl16gTvqV2e7XyCCiXI4WRmvwuvTS2HqmuGdbP9sHYIxBiqhUqzMkenu7XUDvh3tDHsDP3kRuwsgJ4ixXm0sS38wzGPU-_E8hhmVFiSVY1iOYTmG5RiWY1iOYTmG5Rj2f2EYYBVzAnByhhiZaHT-TlxWr65xGZNOUuDnsKxWhQPln8IywgnQl_AWq8bx9D0yS7K5zaFSqb_H-tZq5vL8BoONjGM"
+        separator="="
+        value="eJztlvtT2kAQx_8V5viVE8LLwG8gqY1VsIBa6zhOHkdy9h7xciC0w__uhtSKr2l0cKydMANJbo_97t7uXT5nv5BeRAS10UR60xiVkKvkdUzUhaYcho1mo9ZomPVWxTQrJTSjMdVSXVAf_mHUaxFRE01ivd00KkazWCx-7RyOPw9bLRM8OZ4np0Knk9cNU8VgJNQ6itvl8pUT6VCBBZNoK1I05qHa8iQvS9cl5WJ6kcKVjvKpCMqER0wuCClzhzIYcHxfkTgJPVIyilEbUnJUQHR6F4BU92g8HvRhxioUuHoM5iFXiwJ8MYhyRy1W94oGoS6IALtUJHIwWVPNYCnElDFISmuVaCxLiC9s4ZM5atfAYUiZ__vRgEgcRYS2GOF3QfTs40cReJJho1pILizAzSxi4H1dDIqSVQwKuzmBkbUztp9Y07tC4YlUHLtTraVIqvNX4WqmZTzo2Pt2f7fT6w2t0eiRPujGnoxIUkIaS-Zokg5kiQByzZD6kY2PbevkWenNtYx1cLg_OLUsbPc_DYYHnSdX_INkXH91385jLCSOYJ9DVxXWbpNt01z9ch-bt7uoVeBETLEnhQb3b7ulEhGHCqLwhE3BlEGscV8Mmj6r2ObqOeh3B51hD7bRR-2m15fsJSoPTqQXNUZysL_5eZ697TbW44UoVFi6mEuXMoJnlFynQzNgAQYhzXFIfZ-IzUXVHfROX7UbHr5Rlg8_4GMOnID6ZK4LKHlO9ceOa4Na6lmnD8hoftv7bl16gTvqV2e7XyCCiXI4WRmvwuvTS2HqmuGdbP9sHYIxBiqhUqzMkenu7XUDvh3tDHsDP3kRuwsgJ4ixXm0sS38wzGPU-_E8hhmVFiSVY1iOYTmG5RiWY1iOYTmG5Rj2f2EYYBVzAnByhhiZaHT-TlxWr65xGZNOUuDnsKxWhQPln8IywgnQl_AWq8bx9D0yS7K5zaFSqb_H-tZq5vL8BoONjGM" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="acc"
+        recordRawValue="UUFQVEhSOTk4" separator="=" value="UUFQVEhSOTk4" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="no-cors"/>
+    <header name="referer" value="https://qapthr998-ep.prismhr.com/"/>
+    <header name="sec-ch-ua" value="&quot; Not A;Brand&quot;;v=&quot;99&quot;, &quot;Chromium&quot;;v=&quot;101&quot;, &quot;Google Chrome&quot;;v=&quot;101&quot;"/>
+    <header name="sec-fetch-site" value="cross-site"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="image"/>
+    <header name="accept" value="image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+date: Thu, 26 May 2022 09:48:11 GMT&#xd;
+content-type: image/gif&#xd;
+content-length: 42&#xd;
+access-control-allow-credentials: false&#xd;
+access-control-allow-headers: Origin,Accept,Content-Type,Authorization&#xd;
+access-control-allow-methods: GET,POST&#xd;
+access-control-allow-origin: *&#xd;
+access-control-max-age: 600&#xd;
+x-content-type-options: nosniff&#xd;
+via: 1.1 google&#xd;
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

@@ -1,0 +1,50 @@
+<http-page enabled="false" executeResourcesDynamically="false"
+    name="/wave1/apis/ep/session" playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@e@p_@standard_@c4484572_a3/%resources%/recorded-artifacts/b7ccb9df-4977-4391-9489-2c3e218d67c8.zip"
+    slaProfileEnabled="false" thinkTime="23"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="b7ccb9df-4977-4391-9489-2c3e218d67c8">
+    <embedded-action>a597afe3-9249-436e-860f-dc9f64f98aac</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="text/html; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/wave1/apis/ep/session"
+    path="/wave1/apis/ep/session" postType="6"
+    recordedArtifactZipFileName="team/vus/@e@p_@standard_@c4484572_a3/%resources%/recorded-artifacts/b7ccb9df-4977-4391-9489-2c3e218d67c8.zip"
+    recordedResponseCode="401" responseSize="12"
+    serverUid="qapthr998-ep.prismhr.com" slaProfileEnabled="false"
+    uid="a597afe3-9249-436e-860f-dc9f64f98aac" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_1a806172-e0ba-4092-9652-0a74b5e9436a.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_1a806172-e0ba-4092-9652-0a74b5e9436a.txt</requestContentFileDescription>
+    <header name="Accept" value="application/json, text/plain, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Host" value="qapthr998-ep.prismhr.com"/>
+    <header name="Referer" value="https://qapthr998-ep.prismhr.com/"/>
+    <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;104&quot;, &quot; Not A;Brand&quot;;v=&quot;99&quot;, &quot;Google Chrome&quot;;v=&quot;104&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="Sec-Fetch-Dest" value="empty"/>
+    <header name="Sec-Fetch-Mode" value="cors"/>
+    <header name="Sec-Fetch-Site" value="same-origin"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 401 Unauthorized&#xd;
+Date: Tue, 30 Aug 2022 11:28:54 GMT&#xd;
+Content-Type: text/html; charset=utf-8&#xd;
+Transfer-Encoding: chunked&#xd;
+Connection: keep-alive&#xd;
+RequestId: 695d3c3188ea546e66c91dbe7188229d&#xd;
+Cache-Control: private, no-cache, no-store, must-revalidate&#xd;
+Expires: -1&#xd;
+Pragma: no-cache&#xd;
+Vary: Accept-Encoding&#xd;
+Strict-Transport-Security: max-age=31536000; includeSubDomains&#xd;
+Access-Control-Allow-Methods: POST, PUT, PATCH, DELETE, GET, OPTIONS, HEAD&#xd;
+Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept&#xd;
+Access-Control-Allow-Credentials: true</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

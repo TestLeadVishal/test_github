@@ -1,0 +1,63 @@
+<http-page enabled="false" executeResourcesDynamically="false"
+    name="/events/1/undefined" playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@b@e_@standard_@c4484573_@t@w@o_@v8/%resources%/recorded-artifacts/f7a799ae-7212-4e47-a903-a32bace12bab.zip"
+    slaProfileEnabled="false" thinkTime="21"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="f7a799ae-7212-4e47-a903-a32bace12bab">
+    <embedded-action>0fa6fb36-355c-4ee5-a1af-7cb4840a1972</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="text/plain;charset=UTF-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/events/1/undefined" path="/events/1/undefined"
+    postType="4"
+    recordedArtifactZipFileName="team/vus/@b@e_@standard_@c4484573_@t@w@o_@v8/%resources%/recorded-artifacts/f7a799ae-7212-4e47-a903-a32bace12bab.zip"
+    recordedResponseCode="403" responseSize="2"
+    serverUid="bam.nr-data.net" slaProfileEnabled="false"
+    uid="0fa6fb36-355c-4ee5-a1af-7cb4840a1972" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_0fa6fb36-355c-4ee5-a1af-7cb4840a1972</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_0fa6fb36-355c-4ee5-a1af-7cb4840a1972.txt</requestContentFileDescription>
+    <urlPostParameter encodeName="true" encodeValue="true" name="a"
+        recordRawValue="undefined" separator="=" value="undefined" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="sa"
+        recordRawValue="1" separator="=" value="1" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="v"
+        recordRawValue="1216.487a282" separator="=" value="1216.487a282" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="t"
+        recordRawValue="Unnamed%20Transaction" separator="="
+        value="Unnamed Transaction" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="rst"
+        recordRawValue="50640" separator="=" value="50640" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="ck"
+        recordRawValue="1" separator="=" value="1" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="false" name="ref"
+        recordRawValue="https://qaphr998two-ep.prismhr.com/"
+        separator="=" value="https://qaphr998two-ep.prismhr.com/" valueMode="USE_VALUE"/>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Content-Type" value="text/plain;charset=UTF-8"/>
+    <header name="Host" value="bam.nr-data.net"/>
+    <header name="Origin" value="https://qaphr998two-ep.prismhr.com"/>
+    <header name="Referer" value="https://qaphr998two-ep.prismhr.com/"/>
+    <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;106&quot;, &quot;Google Chrome&quot;;v=&quot;106&quot;, &quot;Not;A=Brand&quot;;v=&quot;99&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="Sec-Fetch-Dest" value="empty"/>
+    <header name="Sec-Fetch-Mode" value="no-cors"/>
+    <header name="Sec-Fetch-Site" value="cross-site"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 403 Forbidden&#xd;
+Date: Thu, 27 Oct 2022 03:51:06 GMT&#xd;
+Content-Type: text/plain;charset=UTF-8&#xd;
+Content-Length: 2&#xd;
+Connection: keep-alive&#xd;
+Vary: Accept-Encoding&#xd;
+Server: cloudflare&#xd;
+CF-RAY: 760878a88ff366bf-DFW</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[bel.6;e,'pageHide,132n,1;6,'cls,0.;e,'unload,132n,1;6,1,0.]]></textPostContent>
+</http-action>

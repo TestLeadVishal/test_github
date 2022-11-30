@@ -1,0 +1,66 @@
+<http-page enabled="false" executeResourcesDynamically="false"
+    name="/wave1/apis/ep/clients/104/employees/K18930/pto/types"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@b@e_@standard_@c4484573_@t@w@o_@v8/%resources%/recorded-artifacts/d53ad8c6-5ec7-4c4e-a83d-c7c6d057d034.zip"
+    slaProfileEnabled="false" thinkTime="103"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="d53ad8c6-5ec7-4c4e-a83d-c7c6d057d034">
+    <embedded-action>69bfa80e-d08a-4b9f-a9aa-15f4e1a494c7</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="text/html; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/wave1/apis/ep/clients/104/employees/K18930/pto/types"
+    path="/wave1/apis/ep/clients/${Client_ID}/employees/${Employee_ID}/pto/types"
+    postCharset="" postType="6"
+    recordedArtifactZipFileName="team/vus/@b@e_@standard_@c4484573_@t@w@o_@v8/%resources%/recorded-artifacts/d53ad8c6-5ec7-4c4e-a83d-c7c6d057d034.zip"
+    recordedResponseCode="500" responseSize="12"
+    serverUid="qaphr998two-ep.prismhr.com" slaProfileEnabled="false"
+    uid="69bfa80e-d08a-4b9f-a9aa-15f4e1a494c7" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_69bfa80e-d08a-4b9f-a9aa-15f4e1a494c7.0.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_69bfa80e-d08a-4b9f-a9aa-15f4e1a494c7.txt</requestContentFileDescription>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="1" endsWithSimple=""
+        extractFromVarNameAdv="" extractFromVarNameSimple=""
+        extractType="1" extractTypeAdv="1" extractTypeSimple="0"
+        matchNumber="1" matchNumberAdv="1" matchNumberSimple="1"
+        name="sails_sid" regExp="sails.sid=(.*?);"
+        regExpAdv="sails.sid=(.*?);" setDefaultValue="true"
+        startsWithSimple="" template="$1$" templateAdv="$1$"
+        uid="9e7e4f81-b5cf-4e69-809a-25b697e90ebc" xpath=""/>
+    <header name="Accept" value="application/json, text/plain, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Cookie" value="sails.sid=${sails_sid}"/>
+    <header name="Host" value="qaphr998two-ep.prismhr.com"/>
+    <header name="Referer" value="https://qaphr998two-ep.prismhr.com/"/>
+    <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;106&quot;, &quot;Google Chrome&quot;;v=&quot;106&quot;, &quot;Not;A=Brand&quot;;v=&quot;99&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="Sec-Fetch-Dest" value="empty"/>
+    <header name="Sec-Fetch-Mode" value="cors"/>
+    <header name="Sec-Fetch-Site" value="same-origin"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 500 Internal Server Error&#xd;
+Date: Thu, 27 Oct 2022 03:50:49 GMT&#xd;
+Content-Type: text/html; charset=utf-8&#xd;
+Transfer-Encoding: chunked&#xd;
+Connection: keep-alive&#xd;
+RequestId: 8424a20ebf8640b619ff57c9556f706b&#xd;
+Cache-Control: private, no-cache, no-store, must-revalidate&#xd;
+Expires: -1&#xd;
+Pragma: no-cache&#xd;
+X-peoId: qaphr998two&#xd;
+Access-Control-Expose-Headers: X-peoId&#xd;
+Vary: Accept-Encoding&#xd;
+Set-Cookie: sails.sid=s%3AS-mMdraQNQ2uDDqZ9-xZgqB0prrWKlKi.td0bRS%2FP7Df6XRjcdqSb6pwnuBqk7BlOIIz7NJSZEow; Path=/; secure; SameSite=none; HttpOnly; Secure&#xd;
+Strict-Transport-Security: max-age=31536000; includeSubDomains&#xd;
+Access-Control-Allow-Methods: POST, PUT, PATCH, DELETE, GET, OPTIONS, HEAD&#xd;
+Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept&#xd;
+Access-Control-Allow-Credentials: true</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

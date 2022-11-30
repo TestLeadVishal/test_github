@@ -1,0 +1,43 @@
+<http-action actionType="1" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/api-1.28/services/rest/employee/getEmployee"
+    path="/api-1.27/services/rest/employee/getEmployeeList"
+    postCharset="" postType="1" serverUid="perfapi.prismhr.com"
+    slaProfileEnabled="false" uid="ae21d602-f160-49e2-96cf-d1fd76f2320f" useKeepAlive="true">
+    <responsePageFileDescription>team/vus/@a@p@i qapthr998 @getlist_998@t@w@o/%resources%/recorded-responses/res_ae21d602-f160-49e2-96cf-d1fd76f2320f</responsePageFileDescription>
+    <requestContentFileDescription>team/vus/@a@p@i qapthr998 @getlist_998@t@w@o/%resources%/recorded-requests/req_ae21d602-f160-49e2-96cf-d1fd76f2320f.txt</requestContentFileDescription>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0"
+        endsWithSimple="&quot;" extractFromVarNameAdv=""
+        extractFromVarNameSimple="" extractType="0" extractTypeAdv="0"
+        extractTypeSimple="0" matchNumber="1" matchNumberAdv="1"
+        matchNumberSimple="1" name="eid"
+        refererUid="aa3e95d3-4fd4-4790-b82d-c2c9e5939ccf"
+        regExp="&quot;id&quot;:&quot;(.*?)&quot;" regExpAdv=""
+        setDefaultValue="true" startsWithSimple="&quot;id&quot;:&quot;"
+        template="$1$" templateAdv="$1$"
+        uid="623ef2b0-edcb-4287-b1df-2e0600b01d03" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0"
+        endsWithSimple="&quot;" extractFromVarNameAdv=""
+        extractFromVarNameSimple="" extractType="0" extractTypeAdv="0"
+        extractTypeSimple="0" matchNumber="1" matchNumberAdv="1"
+        matchNumberSimple="1" name="ckSUM"
+        refererUid="aa3e95d3-4fd4-4790-b82d-c2c9e5939ccf"
+        regExp="&quot;checksum&quot;:&quot;(.*?)&quot;" regExpAdv=""
+        setDefaultValue="true"
+        startsWithSimple="&quot;checksum&quot;:&quot;" template="$1$"
+        templateAdv="$1$" uid="d7c8d390-5b77-4099-bbd4-1135fb56f3ec" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
+    <parameter encodeName="false" encodeValue="false" name="clientId"
+        recordRawValue="" separator="=" value="544" valueMode="USE_VALUE"/>
+    <header name="Content-Type" value="application/x-www-form-urlencoded"/>
+    <header name="sessionId" value="${KEY}"/>
+    <responseHeaders/>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

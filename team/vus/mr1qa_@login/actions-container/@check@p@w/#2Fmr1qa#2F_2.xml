@@ -1,0 +1,76 @@
+<http-page executeResourcesDynamically="false" name="/mr1qa/_2"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/mr1qa_@login/%resources%/recorded-artifacts/0cc18fe5-72a3-474a-90e2-8e11898653ba.zip"
+    slaProfileEnabled="false" thinkTime="6314"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="0cc18fe5-72a3-474a-90e2-8e11898653ba">
+    <embedded-action>220c2981-67ea-4f42-a840-1cd68e32f740</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="text/html; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/mr1qa/" path="/mr1qa/" postCharset=""
+    postType="4"
+    recordedArtifactZipFileName="team/vus/mr1qa_@login/%resources%/recorded-artifacts/0cc18fe5-72a3-474a-90e2-8e11898653ba.zip"
+    recordedResponseCode="200" responseSize="436714"
+    serverUid="mr1qa.prismhr.com" slaProfileEnabled="false"
+    uid="220c2981-67ea-4f42-a840-1cd68e32f740" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_220c2981-67ea-4f42-a840-1cd68e32f740.0.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_220c2981-67ea-4f42-a840-1cd68e32f740.txt</requestContentFileDescription>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="1" endsWithSimple=""
+        extractFromVarNameAdv="" extractFromVarNameSimple=""
+        extractType="1" extractTypeAdv="1" extractTypeSimple="0"
+        matchNumber="1" matchNumberAdv="1" matchNumberSimple="1"
+        name="IDBrowser" regExp="IDBrowser=(.*?);"
+        regExpAdv="IDBrowser=(.*?);" setDefaultValue="true"
+        startsWithSimple="" template="$1$" templateAdv="$1$"
+        uid="1f72e93d-0e43-4c54-86a9-f24f8ee54cf5" xpath=""/>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0" endsWithSimple="'"
+        extractFromVarNameAdv="" extractFromVarNameSimple=""
+        extractType="0" extractTypeAdv="0" extractTypeSimple="0"
+        matchNumber="1" matchNumberAdv="1" matchNumberSimple="1"
+        name="designbaisState_b"
+        refererUid="f94699d3-93b8-42c9-bd05-3910ab53801d"
+        regExp="'designbaisState', '(.*?)'" regExpAdv=""
+        setDefaultValue="true" startsWithSimple="'designbaisState', '"
+        template="$1$" templateAdv="$1$"
+        uid="b1e5395c-d962-4199-b31e-8a8d89e729a4" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Content-Type" value="text/xml"/>
+    <header name="Cookie" value="IDBrowser=${IDBrowser}"/>
+    <header name="Host" value="mr1qa.prismhr.com"/>
+    <header name="Origin" value="https://mr1qa.prismhr.com"/>
+    <header name="Referer" value="https://mr1qa.prismhr.com/"/>
+    <header name="sec-ch-ua" value="&quot;Google Chrome&quot;;v=&quot;105&quot;, &quot;Not)A;Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;105&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="Sec-Fetch-Dest" value="empty"/>
+    <header name="Sec-Fetch-Mode" value="cors"/>
+    <header name="Sec-Fetch-Site" value="same-origin"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"/>
+    <header name="X-Requested-With" value="XMLHttpRequest"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Cache-Control: private&#xd;
+Content-Type: text/html; charset=utf-8&#xd;
+Server: Prism&#xd;
+X-AspNet-Version: 4.0.30319&#xd;
+Set-Cookie: IDBrowser=48a1e818528e44f98c93969f29444ea13746f7d59fee195b8d055dfd77674cb2m2scsYbqDostGc/6bhYjZPXKvErcu/Mv7LbESsFgzEM=; expires=Fri, 07-Oct-2022 14:09:24 GMT; path=/; secure; HttpOnly&#xd;
+Strict-Transport-Security: max-age=31536000; includeSubdomains&#xd;
+X-Content-Type-Options: nosniff&#xd;
+Referrer-Policy: strict-origin&#xd;
+Permissions-Policy: geolocation=(self), microphone=()&#xd;
+X-Powered-By: Prism&#xd;
+Date: Thu, 29 Sep 2022 14:09:25 GMT&#xd;
+Content-Length: 436714</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[<AJAX><field name="select45v1" value="1"/><field name="select47v1" value="1"/><field  name="text78v1" value=""/><field  name="text107v1" value=""/><field  name="datepickstext108v1" value=""/><field name="select110v1" value=""/><field name="select111v1" value=""/><field name="select112v1" value=""/><field name="select113v1" value=""/><field  name="text114v1" value=""/><field  name="text115v1" value=""/><field name="select116v1" value="1"/><field  name="text117v1" value=""/><field  name="text118v1" value=""/><field  name="text121v1" value=""/><field  name="text122v1" value=""/><field  name="textarea127v1" value=""/><field  name="dblastdb1formlayer" value=""/><field  name="text19v2" value=""/><field  name="password36v2" value=""/><field  name="password37v2" value=""/><field  name="password38v2" value=""/><field  name="dblastdbformlayer2" value=""/><field  name="ScreenRoot" value="HRPY.WORK_CHANGE.PASSWORD"/><eventSource>button34v2</eventSource><eventType>click</eventType><clickPos>598,590,BUTTON,button34v2,234,330.5</clickPos><keyCodes>||||</keyCodes><dimensions>1920|922|1920|922</dimensions><designbaisState>${designbaisState_b}</designbaisState><req>${regkey.dbsuiID}</req><tabStore>${Tstore}</tabStore><captchaKey>null</captchaKey><clientClock>09:09:25</clientClock><clientDate>29.09.2022</clientDate><mobile>false</mobile><lastMVCell></lastMVCell><scrollbarWidth>17</scrollbarWidth></AJAX>]]></textPostContent>
+</http-action>

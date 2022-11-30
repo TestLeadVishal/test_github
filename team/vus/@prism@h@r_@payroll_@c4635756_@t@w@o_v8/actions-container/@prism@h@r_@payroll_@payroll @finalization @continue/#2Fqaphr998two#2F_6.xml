@@ -1,0 +1,63 @@
+<http-page enabled="false" executeResourcesDynamically="false"
+    name="/qaphr998two/_6" playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@prism@h@r_@payroll_@c4635756_@t@w@o_v8/%resources%/recorded-artifacts/b7250e6a-f6e4-462b-9d45-ae1a9bd48730.zip"
+    slaProfileEnabled="false" thinkTime="5013"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="b7250e6a-f6e4-462b-9d45-ae1a9bd48730">
+    <embedded-action>bfe06a31-ebc3-4f6d-972a-280e485da280</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="text/html; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/qaphr998two/" path="/qaphr998two/" postType="4"
+    recordedArtifactZipFileName="team/vus/@prism@h@r_@payroll_@c4635756_@t@w@o_v8/%resources%/recorded-artifacts/b7250e6a-f6e4-462b-9d45-ae1a9bd48730.zip"
+    recordedResponseCode="200" responseSize="8848"
+    serverUid="qaphr998two.prismhr.com" slaProfileEnabled="false"
+    uid="bfe06a31-ebc3-4f6d-972a-280e485da280" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_65eb15db-37be-4348-b7e7-efe6092836fc.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_65eb15db-37be-4348-b7e7-efe6092836fc.txt</requestContentFileDescription>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="1" endsWithSimple=""
+        extractFromVarNameAdv="" extractFromVarNameSimple=""
+        extractType="1" extractTypeAdv="1" extractTypeSimple="0"
+        matchNumber="1" matchNumberAdv="1" matchNumberSimple="1"
+        name="IDBrowser" regExp="IDBrowser=(.*?);"
+        regExpAdv="IDBrowser=(.*?);" setDefaultValue="true"
+        startsWithSimple="" template="$1$" templateAdv="$1$"
+        uid="09b2c158-03fb-4941-b083-34f642035754" xpath=""/>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Content-Type" value="text/xml"/>
+    <header name="Cookie" value="DesignBAIS=machine=KAWXLIBYIGQPWGBQKBSPWVMNSQVYWBPGTBKEZDXPOUTFCKR&amp;ver=40&amp;pooler=862; IDBrowser=${IDBrowser}"/>
+    <header name="Host" value="qaphr998two.prismhr.com"/>
+    <header name="newrelic" value="eyJ2IjpbMCwxXSwiZCI6eyJ0eSI6IkJyb3dzZXIiLCJhYyI6IjIyMDMxNjEiLCJhcCI6IjEzODU5ODU0MDciLCJpZCI6IjljYzQxMGZkMGJlOGUwNWEiLCJ0ciI6IjQ5ODQyOWM3NjZmNWVkMDcyNGE2OWYxODFiOTU2NjZmIiwidGkiOjE2NjI5OTE1NDYzMjcsInRrIjoiMTk2MzgxNSJ9fQ=="/>
+    <header name="Origin" value="https://qaphr998two.prismhr.com"/>
+    <header name="Referer" value="https://qaphr998two.prismhr.com/qaphr998two/"/>
+    <header name="sec-ch-ua" value="&quot;Google Chrome&quot;;v=&quot;105&quot;, &quot;Not)A;Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;105&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="Sec-Fetch-Dest" value="empty"/>
+    <header name="Sec-Fetch-Mode" value="cors"/>
+    <header name="Sec-Fetch-Site" value="same-origin"/>
+    <header name="traceparent" value="00-498429c766f5ed0724a69f181b95666f-9cc410fd0be8e05a-01"/>
+    <header name="tracestate" value="1963815@nr=0-1-2203161-1385985407-9cc410fd0be8e05a----1662991546327"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"/>
+    <header name="X-NewRelic-ID" value="VgQHUldVCRABV1BbAwYGXlcD"/>
+    <header name="X-Requested-With" value="XMLHttpRequest"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Cache-Control: private&#xd;
+Content-Type: text/html; charset=utf-8&#xd;
+Server: Microsoft-IIS/10.0&#xd;
+X-AspNet-Version: 4.0.30319&#xd;
+Set-Cookie: IDBrowser=20fb3ae9c7894f7f8ead9b48d95d603d3746f7d59fee195b8d055dfd77674cb2L72cFODx2D+UgBFRyzliMgsbQR/5V4IGS+MZ3q5uCf0=; expires=Tue, 20-Sep-2022 14:05:46 GMT; path=/; HttpOnly&#xd;
+X-NewRelic-App-Data: PxQFU1ZQCQUBR1BRBggDUVUJBQFASkE1VQBsEFlWR1NQEVAOX05yMTQZUwMIBkwdURcRGhUdB0hUHQYdUlFWUghXFE8JFBYGBwQJBVMDVwRTDw9XUVQIERwCAA5EVGo=&#xd;
+X-Powered-By: ASP.NET&#xd;
+Date: Mon, 12 Sep 2022 14:05:46 GMT&#xd;
+Content-Length: 8848</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[<AJAX><field  name="tdxspan69v1x-1z3" value="1"/><field  name="" value=""/><field  name="tdxspan70v1x-1z3" value="1"/><field  name="" value=""/><field  name="textarea95v1" value=""/><field  name="dblastdb1formlayer" value=""/><field  name="dblastdbformlayer2" value=""/><field  name="ScreenRoot" value="HRPY.WORK_PAYROLL.PROGRESS"/><eventSource>dbTimer</eventSource><eventType>timer</eventType><keyCodes>||||</keyCodes><dimensions>1519|946|1519|706</dimensions><designbaisState>${designbaisState_b}</designbaisState><req>${regkey}</req><tabStore>${Tstore}</tabStore><captchaKey>null</captchaKey><clientClock>09:05:46</clientClock><clientDate>12.09.2022</clientDate><mobile>false</mobile><lastMVCell>ASSOC1ztext118v1z1z7</lastMVCell><scrollbarWidth>17</scrollbarWidth></AJAX>]]></textPostContent>
+</http-action>

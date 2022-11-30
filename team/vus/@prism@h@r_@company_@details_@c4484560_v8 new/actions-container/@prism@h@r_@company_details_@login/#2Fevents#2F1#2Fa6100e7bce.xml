@@ -1,0 +1,69 @@
+<http-page enabled="false" executeResourcesDynamically="false"
+    name="/events/1/a6100e7bce" playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@prism@h@r_@company_@details_@c4484560_v8 new/%resources%/recorded-artifacts/2e33d8a4-e75a-4ab4-9acc-f3ba79fffe31.zip"
+    slaProfileEnabled="false" thinkTime="9123"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="2e33d8a4-e75a-4ab4-9acc-f3ba79fffe31">
+    <embedded-action>bd02b3d1-6255-4564-bfef-a0c9a1249680</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="image/gif"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/events/1/a6100e7bce"
+    path="/events/1/a6100e7bce" postType="4"
+    recordedArtifactZipFileName="team/vus/@prism@h@r_@company_@details_@c4484560_v8 new/%resources%/recorded-artifacts/2e33d8a4-e75a-4ab4-9acc-f3ba79fffe31.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="bam.nr-data.net" slaProfileEnabled="false"
+    uid="bd02b3d1-6255-4564-bfef-a0c9a1249680" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_a02372a6-d3d0-42d3-b2e8-011b0af6ebea.gif</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_1d0d9ec5-857c-427a-a92e-fd9205889634.txt</requestContentFileDescription>
+    <urlPostParameter encodeName="true" encodeValue="true" name="a"
+        recordRawValue="1319471832" separator="=" value="1319471832" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="v"
+        recordRawValue="1216.487a282" separator="=" value="1216.487a282" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="to"
+        recordRawValue="Z1RWbUBZXUMEWkxdVl4edWpiF1dSC1xMGlhDQUw%3D"
+        separator="=" value="Z1RWbUBZXUMEWkxdVl4edWpiF1dSC1xMGlhDQUw=" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="rst"
+        recordRawValue="11148" separator="=" value="11148" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="ck"
+        recordRawValue="1" separator="=" value="1" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="false" name="ref"
+        recordRawValue="https://qaphr998.prismhr.com/qaphr998/"
+        separator="=" value="https://qaphr998.prismhr.com/qaphr998/" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="ptid"
+        recordRawValue="cb2c80f8-0001-bf9e-a097-01835ac0ff5b"
+        separator="=" value="${uuid-1}" valueMode="USE_VALUE"/>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="content-type" value="text/plain"/>
+    <header name="Cookie" value="JSESSIONID=${JSESSIONID}"/>
+    <header name="Host" value="bam.nr-data.net"/>
+    <header name="Origin" value="https://qaphr998.prismhr.com"/>
+    <header name="Referer" value="https://qaphr998.prismhr.com/"/>
+    <header name="sec-ch-ua" value="&quot;Google Chrome&quot;;v=&quot;105&quot;, &quot;Not)A;Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;105&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="Sec-Fetch-Dest" value="empty"/>
+    <header name="Sec-Fetch-Mode" value="cors"/>
+    <header name="Sec-Fetch-Site" value="cross-site"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Tue, 20 Sep 2022 11:55:50 GMT&#xd;
+Content-Type: image/gif&#xd;
+Content-Length: 24&#xd;
+Connection: keep-alive&#xd;
+CF-Ray: 74da5fd9196bc560-ORD&#xd;
+Access-Control-Allow-Origin: https://qaphr998.prismhr.com&#xd;
+CF-Cache-Status: DYNAMIC&#xd;
+access-control-allow-credentials: true&#xd;
+access-control-allow-methods: GET, POST, PUT, HEAD, OPTIONS&#xd;
+Vary: Accept-Encoding&#xd;
+Server: cloudflare</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[bel.6;e,'fp,9b,1;6,'cls,0.;e,'fcp,bk,1;6,1,0.044270833333333336;e,'load,ld,1;6,1,0.044270833333333336]]></textPostContent>
+</http-action>

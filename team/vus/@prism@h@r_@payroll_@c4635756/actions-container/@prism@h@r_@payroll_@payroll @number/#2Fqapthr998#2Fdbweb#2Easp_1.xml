@@ -1,0 +1,67 @@
+<http-page executeResourcesDynamically="false"
+    name="/qapthr998/dbweb.asp_1" playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@prism@h@r_@payroll_@c4635756/%resources%/recorded-artifacts/3bfb8edf-53b7-43b3-9889-575b3e11ab25.zip"
+    slaProfileEnabled="false" thinkTime="2904"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="3bfb8edf-53b7-43b3-9889-575b3e11ab25">
+    <embedded-action>9f4f901b-3937-4665-a310-ed3be22504b8</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="text/html; Charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/qapthr998/dbweb.asp"
+    path="/qapthr998/dbweb.asp" postCharset="" postType="4"
+    recordedArtifactZipFileName="team/vus/@prism@h@r_@payroll_@c4635756/%resources%/recorded-artifacts/3bfb8edf-53b7-43b3-9889-575b3e11ab25.zip"
+    recordedResponseCode="200" recordedResponseTime="918"
+    responseSize="1528006" serverUid="qapthr998.prismhr.com"
+    slaProfileEnabled="false" uid="9f4f901b-3937-4665-a310-ed3be22504b8" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_cust_5c3367d4-8820-4ade-9a75-5967a7300d5b.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_cust_9f4f901b-3937-4665-a310-ed3be22504b8.txt</requestContentFileDescription>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0"
+        endsWithSimple="&quot;;" extractFromVarNameAdv=""
+        extractFromVarNameSimple="" extractType="0" extractTypeAdv="0"
+        extractTypeSimple="0" matchNumber="1" matchNumberAdv="1"
+        matchNumberSimple="1" name="Payroll_ID"
+        refererUid="f9e31f44-eeb7-48c4-9f69-b82f09b61c58"
+        regExp="getElementById\(&quot;text50v1&quot;\)\.value=&quot;(.*?)&quot;;"
+        regExpAdv="" setDefaultValue="true"
+        startsWithSimple="getElementById(&quot;text50v1&quot;).value=&quot;"
+        template="$1$" templateAdv="$1$"
+        uid="e01ebc05-0049-4764-80f9-c13efded98a2" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
+    <urlPostParameter encodeName="true" encodeValue="true" name="dbcgm"
+        recordRawValue="1" separator="=" value="1" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="ajx"
+        recordRawValue="yes" separator="=" value="yes" valueMode="USE_VALUE"/>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Content-Type" value="application/x-javascript;"/>
+    <header name="Cookie" value="ASPSESSIONID${ASPSESSION param}; DesignBAIS=machine=${Design_Bias}&amp;pooler=222&amp;ver=40"/>
+    <header name="Host" value="qapthr998.prismhr.com"/>
+    <header name="Origin" value="https://qapthr998.prismhr.com"/>
+    <header name="Referer" value="https://qapthr998.prismhr.com/qapthr998/dbweb.asp?dbcgm=1"/>
+    <header name="sec-ch-ua" value="&quot; Not A;Brand&quot;;v=&quot;99&quot;, &quot;Chromium&quot;;v=&quot;101&quot;, &quot;Google Chrome&quot;;v=&quot;101&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="Sec-Fetch-Dest" value="empty"/>
+    <header name="Sec-Fetch-Mode" value="cors"/>
+    <header name="Sec-Fetch-Site" value="same-origin"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK
+Cache-Control: private
+Content-Type: text/html; Charset=utf-8
+Server: Microsoft-IIS/10.0
+P3P: CP=\'IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT\'
+Set-Cookie: DesignBAIS=machine=FOGDZYAVWPGDJUVWRWDDZVUJKHJGTROYTHJQTNOTLARGXNW&amp;ver=40&amp;pooler=222; expires=Mon, 17-Feb-2025 06:00:00 GMT; path=/; secure; SameSite=none
+X-Powered-By: ASP.NET
+Date: Tue, 24 May 2022 20:03:00 GMT
+Content-Length: 1528006</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[<ajaxTOBA><field name="page_R.EMPLOYEES" value="1"/><field name="textarea95v1" value=""/><field name="text4v2" value=""/><field name="text9v2" value=""/><field name="textarea15v2" value=""/><field name="ScreenRoot" value="BATCH.CONTROL_SEARCH.OPEN.BATCHES"/><eventSource>tdxspan2v2x1z2</eventSource><eventType>click</eventType><clickPos>656,211,TD,tdxspan2v2x1z2</clickPos><keyCodes>||||</keyCodes><dimensions>1920|922|1920|922</dimensions><W3CRoot>BATCH.CONTROL_SEARCH.OPEN.BATCHES</W3CRoot><clientClock>14:02:45</clientClock><clientDate>24.05.2022</clientDate><dbsuiID>${dbsuiID}</dbsuiID><bac>172.16.160.105|UNIDATA|S:\DAVISON\ACCOUNTS\QAPTHR998\HRPY.DBRUN.QAPTHR998</bac></ajaxTOBA>]]></textPostContent>
+</http-action>

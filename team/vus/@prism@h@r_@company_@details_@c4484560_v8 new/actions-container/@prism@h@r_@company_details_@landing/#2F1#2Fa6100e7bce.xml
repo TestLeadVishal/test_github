@@ -1,0 +1,227 @@
+<http-page enabled="false" executeResourcesDynamically="false"
+    name="/1/a6100e7bce" playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@prism@h@r_@company_@details_@c4484560_v8 new/%resources%/recorded-artifacts/a596cefe-acc0-4889-a239-cdfa13146afd.zip"
+    slaProfileEnabled="false" thinkTime="530"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="a596cefe-acc0-4889-a239-cdfa13146afd">
+    <embedded-action>83f4f93b-912f-4061-b29a-a49f7361cd25</embedded-action>
+    <embedded-action>61b1d42d-1a23-4257-b6c1-1c0c33534590</embedded-action>
+    <embedded-action>df561f12-02ed-4827-bbb6-caaaf74368b0</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="text/javascript"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/1/a6100e7bce" path="/1/a6100e7bce" postType="6"
+    recordedArtifactZipFileName="team/vus/@prism@h@r_@company_@details_@c4484560_v8 new/%resources%/recorded-artifacts/a596cefe-acc0-4889-a239-cdfa13146afd.zip"
+    recordedResponseCode="200" responseSize="49"
+    serverUid="bam.nr-data.net" slaProfileEnabled="false"
+    uid="83f4f93b-912f-4061-b29a-a49f7361cd25" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_b3629d82-7062-4255-877d-e421da0ae9f4</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_b3629d82-7062-4255-877d-e421da0ae9f4.txt</requestContentFileDescription>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="1" endsWithSimple=""
+        extractFromVarNameAdv="" extractFromVarNameSimple=""
+        extractType="1" extractTypeAdv="1" extractTypeSimple="0"
+        matchNumber="1" matchNumberAdv="1" matchNumberSimple="1"
+        name="JSESSIONID" regExp="JSESSIONID=(.*?);"
+        regExpAdv="JSESSIONID=(.*?);" setDefaultValue="true"
+        startsWithSimple="" template="$1$" templateAdv="$1$"
+        uid="62119cb2-13d9-408d-aa14-f80b402fe977" xpath=""/>
+    <parameter encodeName="true" encodeValue="true" name="a"
+        recordRawValue="1319471832" separator="=" value="1319471832" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v"
+        recordRawValue="1216.487a282" separator="=" value="1216.487a282" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="to"
+        recordRawValue="Z1RWbUBZXUMEWkxdVl4edWpiF1dSC1xMGlhDQUw%3D"
+        separator="=" value="Z1RWbUBZXUMEWkxdVl4edWpiF1dSC1xMGlhDQUw=" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="rst"
+        recordRawValue="1147" separator="=" value="1147" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="ck"
+        recordRawValue="1" separator="=" value="1" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="false" name="ref"
+        recordRawValue="https://qaphr998.prismhr.com/qaphr998/"
+        separator="=" value="https://qaphr998.prismhr.com/qaphr998/" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="ap"
+        recordRawValue="32" separator="=" value="32" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="be"
+        recordRawValue="109" separator="=" value="109" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="fe"
+        recordRawValue="769" separator="=" value="769" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="dc"
+        recordRawValue="279" separator="=" value="279" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="false" name="af"
+        recordRawValue="err,xhr,stn,ins,spa" separator="="
+        value="err,xhr,stn,ins,spa" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="false" name="perf"
+        recordRawValue="%7B%22timing%22:%7B%22of%22:1663674939142,%22n%22:0,%22r%22:3,%22re%22:10,%22f%22:10,%22dn%22:10,%22dne%22:10,%22c%22:10,%22ce%22:10,%22rq%22:11,%22rp%22:13,%22rpe%22:14,%22dl%22:101,%22di%22:279,%22ds%22:279,%22de%22:280,%22dc%22:769,%22l%22:769,%22le%22:770%7D,%22navigation%22:%7B%22rc%22:1%7D%7D"
+        separator="="
+        value="%7B%22timing%22:%7B%22of%22:1663674939142,%22n%22:0,%22r%22:3,%22re%22:10,%22f%22:10,%22dn%22:10,%22dne%22:10,%22c%22:10,%22ce%22:10,%22rq%22:11,%22rp%22:13,%22rpe%22:14,%22dl%22:101,%22di%22:279,%22ds%22:279,%22de%22:280,%22dc%22:769,%22l%22:769,%22le%22:770%7D,%22navigation%22:%7B%22rc%22:1%7D%7D" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="fp"
+        recordRawValue="335" separator="=" value="335" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="fcp"
+        recordRawValue="416" separator="=" value="416" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="jsonp"
+        recordRawValue="NREUM.setToken" separator="="
+        value="NREUM.setToken" valueMode="USE_VALUE"/>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Host" value="bam.nr-data.net"/>
+    <header name="Referer" value="https://qaphr998.prismhr.com/"/>
+    <header name="sec-ch-ua" value="&quot;Google Chrome&quot;;v=&quot;105&quot;, &quot;Not)A;Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;105&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="Sec-Fetch-Dest" value="script"/>
+    <header name="Sec-Fetch-Mode" value="no-cors"/>
+    <header name="Sec-Fetch-Site" value="cross-site"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Tue, 20 Sep 2022 11:55:41 GMT&#xd;
+Content-Type: text/javascript&#xd;
+Transfer-Encoding: chunked&#xd;
+Connection: keep-alive&#xd;
+CF-Ray: 74da5f9dbe4fc560-ORD&#xd;
+Access-Control-Allow-Origin: *&#xd;
+Set-Cookie: JSESSIONID=a2c4f7fa125788de; Path=/; Domain=.nr-data.net; Secure; SameSite=None&#xd;
+CF-Cache-Status: DYNAMIC&#xd;
+access-control-allow-credentials: true&#xd;
+access-control-allow-methods: GET, POST, PUT, HEAD, OPTIONS&#xd;
+Cross-Origin-Resource-Policy: cross-origin&#xd;
+Vary: Accept-Encoding&#xd;
+Server: cloudflare&#xd;
+Content-Encoding: gzip</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="text/plain"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/resources/1/a6100e7bce"
+    path="/resources/1/a6100e7bce" postType="4"
+    recordedArtifactZipFileName="team/vus/@prism@h@r_@company_@details_@c4484560_v8 new/%resources%/recorded-artifacts/a596cefe-acc0-4889-a239-cdfa13146afd.zip"
+    recordedResponseCode="200" responseSize="36"
+    serverUid="bam.nr-data.net" slaProfileEnabled="false"
+    uid="61b1d42d-1a23-4257-b6c1-1c0c33534590" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_48846720-835c-4595-8e08-2e8be9c4e16c</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_48846720-835c-4595-8e08-2e8be9c4e16c.txt</requestContentFileDescription>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="1" endsWithSimple=""
+        extractFromVarNameAdv="" extractFromVarNameSimple=""
+        extractType="0" extractTypeAdv="0" extractTypeSimple="0"
+        matchNumber="1" matchNumberAdv="1" matchNumberSimple="1"
+        name="uuid-1"
+        regExp="([0-9|a-z]{8})-([0-9|a-z]{4})-([0-9|a-z]{4})-([0-9|a-z]{4})-([0-9|a-z]{12})"
+        regExpAdv="([0-9|a-z]{8})-([0-9|a-z]{4})-([0-9|a-z]{4})-([0-9|a-z]{4})-([0-9|a-z]{12})"
+        setDefaultValue="true" startsWithSimple=""
+        template="$1$-$2$-$3$-$4$-$5$" templateAdv="$1$-$2$-$3$-$4$-$5$"
+        uid="d8f6e00d-9a7a-44d5-b4fd-34a55c63267b" xpath=""/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="a"
+        recordRawValue="1319471832" separator="=" value="1319471832" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="v"
+        recordRawValue="1216.487a282" separator="=" value="1216.487a282" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="to"
+        recordRawValue="Z1RWbUBZXUMEWkxdVl4edWpiF1dSC1xMGlhDQUw%3D"
+        separator="=" value="Z1RWbUBZXUMEWkxdVl4edWpiF1dSC1xMGlhDQUw=" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="rst"
+        recordRawValue="1780" separator="=" value="1780" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="ck"
+        recordRawValue="1" separator="=" value="1" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="false" name="ref"
+        recordRawValue="https://qaphr998.prismhr.com/qaphr998/"
+        separator="=" value="https://qaphr998.prismhr.com/qaphr998/" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="st"
+        recordRawValue="1663674939142" separator="="
+        value="1663674939142" valueMode="USE_VALUE"/>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="content-type" value="text/plain"/>
+    <header name="Cookie" value="JSESSIONID=${JSESSIONID}"/>
+    <header name="Host" value="bam.nr-data.net"/>
+    <header name="Origin" value="https://qaphr998.prismhr.com"/>
+    <header name="Referer" value="https://qaphr998.prismhr.com/"/>
+    <header name="sec-ch-ua" value="&quot;Google Chrome&quot;;v=&quot;105&quot;, &quot;Not)A;Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;105&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="Sec-Fetch-Dest" value="empty"/>
+    <header name="Sec-Fetch-Mode" value="cors"/>
+    <header name="Sec-Fetch-Site" value="cross-site"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Tue, 20 Sep 2022 11:55:41 GMT&#xd;
+Content-Type: text/plain&#xd;
+Content-Length: 36&#xd;
+Connection: keep-alive&#xd;
+CF-Ray: 74da5f9e9f47c560-ORD&#xd;
+Access-Control-Allow-Origin: https://qaphr998.prismhr.com&#xd;
+CF-Cache-Status: DYNAMIC&#xd;
+access-control-allow-credentials: true&#xd;
+access-control-allow-methods: GET, POST, PUT, HEAD, OPTIONS&#xd;
+Vary: Accept-Encoding&#xd;
+Server: cloudflare</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[{"res":[{"n":"navigationStart","s":0,"e":0,"o":"document","t":"timing"},{"n":"redirectStart","s":3,"e":3,"o":"document","t":"timing"},{"n":"redirectEnd","s":10,"e":10,"o":"document","t":"timing"},{"n":"fetchStart","s":10,"e":10,"o":"document","t":"timing"},{"n":"domainLookupStart","s":10,"e":10,"o":"document","t":"timing"},{"n":"domainLookupEnd","s":10,"e":10,"o":"document","t":"timing"},{"n":"connectStart","s":10,"e":10,"o":"document","t":"timing"},{"n":"connectEnd","s":10,"e":10,"o":"document","t":"timing"},{"n":"requestStart","s":11,"e":11,"o":"document","t":"timing"},{"n":"responseStart","s":13,"e":13,"o":"document","t":"timing"},{"n":"responseEnd","s":14,"e":14,"o":"document","t":"timing"},{"n":"domLoading","s":101,"e":101,"o":"document","t":"timing"},{"n":"domInteractive","s":279,"e":279,"o":"document","t":"timing"},{"n":"domContentLoadedEventStart","s":279,"e":279,"o":"document","t":"timing"},{"n":"domContentLoadedEventEnd","s":280,"e":280,"o":"document","t":"timing"},{"n":"domComplete","s":769,"e":769,"o":"document","t":"timing"},{"n":"loadEventStart","s":769,"e":769,"o":"document","t":"timing"},{"n":"loadEventEnd","s":770,"e":770,"o":"document","t":"timing"}]}]]></textPostContent>
+</http-action>
+<http-action actionType="1" contentType="image/gif"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/events/1/a6100e7bce"
+    path="/events/1/a6100e7bce" postType="4"
+    recordedArtifactZipFileName="team/vus/@prism@h@r_@company_@details_@c4484560_v8 new/%resources%/recorded-artifacts/a596cefe-acc0-4889-a239-cdfa13146afd.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="bam.nr-data.net" slaProfileEnabled="false"
+    uid="df561f12-02ed-4827-bbb6-caaaf74368b0" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_f1b3c927-2024-470c-a90c-89b5fd18966d.gif</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_e7f995b8-4532-4b37-acab-b08709ac00c1.txt</requestContentFileDescription>
+    <urlPostParameter encodeName="true" encodeValue="true" name="a"
+        recordRawValue="1319471832" separator="=" value="1319471832" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="v"
+        recordRawValue="1216.487a282" separator="=" value="1216.487a282" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="to"
+        recordRawValue="Z1RWbUBZXUMEWkxdVl4edWpiF1dSC1xMGlhDQUw%3D"
+        separator="=" value="Z1RWbUBZXUMEWkxdVl4edWpiF1dSC1xMGlhDQUw=" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="rst"
+        recordRawValue="1791" separator="=" value="1791" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="ck"
+        recordRawValue="1" separator="=" value="1" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="false" name="ref"
+        recordRawValue="https://qaphr998.prismhr.com/qaphr998/"
+        separator="=" value="https://qaphr998.prismhr.com/qaphr998/" valueMode="USE_VALUE"/>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="content-type" value="text/plain"/>
+    <header name="Cookie" value="JSESSIONID=${JSESSIONID}"/>
+    <header name="Host" value="bam.nr-data.net"/>
+    <header name="Origin" value="https://qaphr998.prismhr.com"/>
+    <header name="Referer" value="https://qaphr998.prismhr.com/"/>
+    <header name="sec-ch-ua" value="&quot;Google Chrome&quot;;v=&quot;105&quot;, &quot;Not)A;Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;105&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="Sec-Fetch-Dest" value="empty"/>
+    <header name="Sec-Fetch-Mode" value="cors"/>
+    <header name="Sec-Fetch-Site" value="cross-site"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Tue, 20 Sep 2022 11:55:41 GMT&#xd;
+Content-Type: image/gif&#xd;
+Content-Length: 24&#xd;
+Connection: keep-alive&#xd;
+CF-Ray: 74da5f9f3fc8c560-ORD&#xd;
+Access-Control-Allow-Origin: https://qaphr998.prismhr.com&#xd;
+CF-Cache-Status: DYNAMIC&#xd;
+access-control-allow-credentials: true&#xd;
+access-control-allow-methods: GET, POST, PUT, HEAD, OPTIONS&#xd;
+Vary: Accept-Encoding&#xd;
+Server: cloudflare</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[bel.7;1,4,,xo,le,o,'initialPageLoad,'https://qaphr998.prismhr.com/qaphr998/,1,1,,,,w,!!'e8801d88-e5fe-4207-a5eb-c1eb12606c49,'1,9b,bk;2,,8x,12,np,1i,'POST,5k,'qaphr998.prismhr.com:443,'/qaphr998/,36g,6au,,'7,'450300d576795232,'731a90f0223fe81f111f0e53b25b10c6,l8a53qyv;2,,7j,gn,2,1,'GET,5k,'ka-p.fontawesome.com:443,'/releases/v5.15.4/css/pro-v4-shims.min.css,,38i,1,'4,!!!;2,,7i,hi,o,2,a,5k,b,'/releases/v5.15.4/css/pro.min.css,,15te,1,'3,!!!;2,,7k,id,60,f,a,5k,b,'/releases/v5.15.4/css/pro-v4-font-face.min.css,,20b,1,'5,!!!;b,!3,!7,,,,,!,1,2,1,2f,4y,,1,dl,,1]]></textPostContent>
+</http-action>

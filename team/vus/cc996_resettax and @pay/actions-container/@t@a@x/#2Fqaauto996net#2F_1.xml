@@ -1,0 +1,75 @@
+<http-page executeResourcesDynamically="false" name="/qaauto996net/_1"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/cc996_resettax and @pay/%resources%/recorded-artifacts/9ad3b45b-04c0-4c2e-93c8-ea8994ebe3de.zip"
+    slaProfileEnabled="false" thinkTime="5000"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="9ad3b45b-04c0-4c2e-93c8-ea8994ebe3de">
+    <embedded-action>f92fa2a9-2da3-4a93-bed5-1d7f747a43b5</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="text/html; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/qaauto996net/" path="/qaauto996net/"
+    postCharset="" postType="4"
+    recordedArtifactZipFileName="team/vus/cc996_resettax and @pay/%resources%/recorded-artifacts/9ad3b45b-04c0-4c2e-93c8-ea8994ebe3de.zip"
+    recordedResponseCode="200" responseSize="4201"
+    serverUid="qaauto996.prismhr.com" slaProfileEnabled="false"
+    uid="f92fa2a9-2da3-4a93-bed5-1d7f747a43b5" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_25b5584b-d0c3-4e98-a071-4069d83a4557.0.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_25b5584b-d0c3-4e98-a071-4069d83a4557.txt</requestContentFileDescription>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0" endsWithSimple="'"
+        extractFromVarNameAdv="" extractFromVarNameSimple=""
+        extractType="0" extractTypeAdv="0" extractTypeSimple="0"
+        matchNumber="1" matchNumberAdv="1" matchNumberSimple="1"
+        name="designbaisState_b"
+        refererUid="d3d0fb9b-70c8-4cd7-a4f7-d122be485161"
+        regExp="designbaisState', '(.*?)'" regExpAdv=""
+        setDefaultValue="true" startsWithSimple="designbaisState', '"
+        template="$1$" templateAdv="$1$"
+        uid="b1e5395c-d962-4199-b31e-8a8d89e729a4" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0" endsWithSimple="="
+        extractFromVarNameAdv="" extractFromVarNameSimple=""
+        extractType="1" extractTypeAdv="0" extractTypeSimple="1"
+        matchNumber="1" matchNumberAdv="1" matchNumberSimple="1"
+        name="IDBrowser"
+        refererUid="bd82ffd1-521f-46b9-b915-4f3f2a6633c4"
+        regExp="IDBrowser=(.*?)=" regExpAdv="" setDefaultValue="true"
+        startsWithSimple="IDBrowser=" template="$1$" templateAdv="$1$"
+        uid="81320ade-b849-4208-ad3b-e540b96387a4" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Content-Type" value="text/xml"/>
+    <header name="Cookie" value="IDBrowser=${IDBrowser}="/>
+    <header name="Host" value="qaauto996.prismhr.com"/>
+    <header name="Origin" value="https://qaauto996.prismhr.com"/>
+    <header name="Referer" value="https://qaauto996.prismhr.com/qaauto996net/"/>
+    <header name="sec-ch-ua" value="&quot; Not A;Brand&quot;;v=&quot;99&quot;, &quot;Chromium&quot;;v=&quot;100&quot;, &quot;Google Chrome&quot;;v=&quot;100&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="Sec-Fetch-Dest" value="empty"/>
+    <header name="Sec-Fetch-Mode" value="cors"/>
+    <header name="Sec-Fetch-Site" value="same-origin"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"/>
+    <header name="X-Requested-With" value="XMLHttpRequest"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Cache-Control: private&#xd;
+Content-Type: text/html; charset=utf-8&#xd;
+Server: Microsoft-IIS/10.0&#xd;
+X-AspNet-Version: 4.0.30319&#xd;
+Set-Cookie: IDBrowser=c96baeb428e94ee3ae680ff009ff947f3746f7d59fee195b8d055dfd77674cb2hINCXGSn0rxFkoKSjjotv3hR61PAlrFNiqbzt5nMCpA=; expires=Tue, 03-May-2022 14:05:17 GMT; path=/; HttpOnly&#xd;
+X-Powered-By: ASP.NET&#xd;
+Date: Mon, 25 Apr 2022 14:05:18 GMT&#xd;
+Content-Length: 4201</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[<AJAX><field  name="text33v1" value=""/><field name="select114v1" value="H"/><field name="checkbox115v1" value="false"/><field  name="text116v1" value=""/><field  name="text117v1" value=""/><field  name="text118v1" value=""/><field name="select119v1" value=""/><field  name="text120v1" value=""/><field name="checkbox121v1" value="false"/><field name="checkbox122v1" value="false"/><field name="checkbox123v1" value="false"/><field name="checkbox124v1" value="false"/><field  name="text125v1" value=""/><field  name="text126v1" value="0"/><field name="select127v1" value=""/><field name="checkbox154v1" value="true"/><field name="select155v1" value="A18"/><field  name="text156v1" value="87687gkh98798"/><field  name="datepickstext157v1" value=""/><field  name="text158v1" value="US"/><field  name="datepickstext159v1" value=""/><field name="select164v1" value=""/><field  name="text165v1" value=""/><field  name="datepickstext166v1" value=""/><field  name="text167v1" value=""/><field name="select168v1" value=""/><field  name="text169v1" value=""/><field  name="datepickstext170v1" value=""/><field  name="text171v1" value=""/><field name="checkbox172v1" value="false"/><field  name="text173v1" value=""/><field  name="datepickstext174v1" value=""/><field name="checkbox175v1" value="false"/><field name="checkbox176v1" value="false"/><field  name="text177v1" value=""/><field name="checkbox178v1" value="false"/><field  name="text179v1" value=""/><field  name="datepickstext180v1" value=""/><field  name="textarea192v1" value=""/><field  name="ASSOC1ztext128v1z1z1" value="FL"/><field  name="ASSOC1ztext129v1z1z2" value="H"/><field  name="ASSOC1ztext130v1z1z3" value="0"/><field  name="ASSOC1ztext131v1z1z4" value=""/><field name="ASSOC1zselect132v1z1z5" value=""/><field  name="ASSOC1ztext133v1z1z6" value=""/><field  name="ASSOC1ztext134v1z1z7" value=""/><field name="ASSOC1zselect135v1z1z8" value=""/><field  name="ASSOC1ztext136v1z1z9" value=""/><field name="ASSOC1zselect137v1z1z10" value=""/><field  name="ASSOC1ztext138v1z1z11" value=""/><field  name="ASSOC1ztext139v1z1z12" value=""/><field  name="ASSOC1ztext140v1z1z13" value=""/><field name="ASSOC1zselect141v1z1z14" value="N"/><field  name="ASSOC1ztext142v1z1z15" value=""/><field name="ASSOC1zselect143v1z1z16" value=""/><field  name="ASSOC1ztext144v1z1z17" value=""/><field  name="ASSOC1ztext128v1z2z1" value=""/><field  name="ASSOC1ztext129v1z2z2" value=""/><field  name="ASSOC1ztext130v1z2z3" value=""/><field  name="ASSOC1ztext131v1z2z4" value=""/><field name="ASSOC1zselect132v1z2z5" value=""/><field  name="ASSOC1ztext133v1z2z6" value=""/><field  name="ASSOC1ztext134v1z2z7" value=""/><field name="ASSOC1zselect135v1z2z8" value=""/><field  name="ASSOC1ztext136v1z2z9" value=""/><field name="ASSOC1zselect137v1z2z10" value=""/><field  name="ASSOC1ztext138v1z2z11" value=""/><field  name="ASSOC1ztext139v1z2z12" value=""/><field  name="ASSOC1ztext140v1z2z13" value=""/><field name="ASSOC1zselect141v1z2z14" value=""/><field  name="ASSOC1ztext142v1z2z15" value=""/><field name="ASSOC1zselect143v1z2z16" value=""/><field  name="ASSOC1ztext144v1z2z17" value=""/><field  name="ASSOC1ztext128v1z3z1" value=""/><field  name="ASSOC1ztext129v1z3z2" value=""/><field  name="ASSOC1ztext130v1z3z3" value=""/><field  name="ASSOC1ztext131v1z3z4" value=""/><field name="ASSOC1zselect132v1z3z5" value=""/><field  name="ASSOC1ztext133v1z3z6" value=""/><field  name="ASSOC1ztext134v1z3z7" value=""/><field name="ASSOC1zselect135v1z3z8" value=""/><field  name="ASSOC1ztext136v1z3z9" value=""/><field name="ASSOC1zselect137v1z3z10" value=""/><field  name="ASSOC1ztext138v1z3z11" value=""/><field  name="ASSOC1ztext139v1z3z12" value=""/><field  name="ASSOC1ztext140v1z3z13" value=""/><field name="ASSOC1zselect141v1z3z14" value=""/><field  name="ASSOC1ztext142v1z3z15" value=""/><field name="ASSOC1zselect143v1z3z16" value=""/><field  name="ASSOC1ztext144v1z3z17" value=""/><field  name="ASSOC1ztext128v1z4z1" value=""/><field  name="ASSOC1ztext129v1z4z2" value=""/><field  name="ASSOC1ztext130v1z4z3" value=""/><field  name="ASSOC1ztext131v1z4z4" value=""/><field name="ASSOC1zselect132v1z4z5" value=""/><field  name="ASSOC1ztext133v1z4z6" value=""/><field  name="ASSOC1ztext134v1z4z7" value=""/><field name="ASSOC1zselect135v1z4z8" value=""/><field  name="ASSOC1ztext136v1z4z9" value=""/><field name="ASSOC1zselect137v1z4z10" value=""/><field  name="ASSOC1ztext138v1z4z11" value=""/><field  name="ASSOC1ztext139v1z4z12" value=""/><field  name="ASSOC1ztext140v1z4z13" value=""/><field name="ASSOC1zselect141v1z4z14" value=""/><field  name="ASSOC1ztext142v1z4z15" value=""/><field name="ASSOC1zselect143v1z4z16" value=""/><field  name="ASSOC1ztext144v1z4z17" value=""/><field  name="ASSOC1ztext128v1z5z1" value=""/><field  name="ASSOC1ztext129v1z5z2" value=""/><field  name="ASSOC1ztext130v1z5z3" value=""/><field  name="ASSOC1ztext131v1z5z4" value=""/><field name="ASSOC1zselect132v1z5z5" value=""/><field  name="ASSOC1ztext133v1z5z6" value=""/><field  name="ASSOC1ztext134v1z5z7" value=""/><field name="ASSOC1zselect135v1z5z8" value=""/><field  name="ASSOC1ztext136v1z5z9" value=""/><field name="ASSOC1zselect137v1z5z10" value=""/><field  name="ASSOC1ztext138v1z5z11" value=""/><field  name="ASSOC1ztext139v1z5z12" value=""/><field  name="ASSOC1ztext140v1z5z13" value=""/><field name="ASSOC1zselect141v1z5z14" value=""/><field  name="ASSOC1ztext142v1z5z15" value=""/><field name="ASSOC1zselect143v1z5z16" value=""/><field  name="ASSOC1ztext144v1z5z17" value=""/><field  name="ASSOC1ztext128v1z6z1" value=""/><field  name="ASSOC1ztext129v1z6z2" value=""/><field  name="ASSOC1ztext130v1z6z3" value=""/><field  name="ASSOC1ztext131v1z6z4" value=""/><field name="ASSOC1zselect132v1z6z5" value=""/><field  name="ASSOC1ztext133v1z6z6" value=""/><field  name="ASSOC1ztext134v1z6z7" value=""/><field name="ASSOC1zselect135v1z6z8" value=""/><field  name="ASSOC1ztext136v1z6z9" value=""/><field name="ASSOC1zselect137v1z6z10" value=""/><field  name="ASSOC1ztext138v1z6z11" value=""/><field  name="ASSOC1ztext139v1z6z12" value=""/><field  name="ASSOC1ztext140v1z6z13" value=""/><field name="ASSOC1zselect141v1z6z14" value=""/><field  name="ASSOC1ztext142v1z6z15" value=""/><field name="ASSOC1zselect143v1z6z16" value=""/><field  name="ASSOC1ztext144v1z6z17" value=""/><field  name="ASSOC3ztext145v1z1z1" value=""/><field  name="ASSOC3ztext147v1z1z3" value=""/><field name="ASSOC3zselect149v1z1z5" value="Y"/><field  name="ASSOC3ztext150v1z1z6" value=""/><field  name="ASSOC3ztext151v1z1z7" value=""/><field  name="ASSOC3ztext145v1z2z1" value=""/><field  name="ASSOC3ztext147v1z2z3" value=""/><field name="ASSOC3zselect149v1z2z5" value="Y"/><field  name="ASSOC3ztext150v1z2z6" value=""/><field  name="ASSOC3ztext151v1z2z7" value=""/><field  name="ASSOC3ztext145v1z3z1" value=""/><field  name="ASSOC3ztext147v1z3z3" value=""/><field name="ASSOC3zselect149v1z3z5" value="Y"/><field  name="ASSOC3ztext150v1z3z6" value=""/><field  name="ASSOC3ztext151v1z3z7" value=""/><field  name="ASSOC3ztext145v1z4z1" value=""/><field  name="ASSOC3ztext147v1z4z3" value=""/><field name="ASSOC3zselect149v1z4z5" value="Y"/><field  name="ASSOC3ztext150v1z4z6" value=""/><field  name="ASSOC3ztext151v1z4z7" value=""/><field  name="ASSOC3ztext145v1z5z1" value=""/><field  name="ASSOC3ztext147v1z5z3" value=""/><field name="ASSOC3zselect149v1z5z5" value="Y"/><field  name="ASSOC3ztext150v1z5z6" value=""/><field  name="ASSOC3ztext151v1z5z7" value=""/><field  name="ASSOC3ztext145v1z6z1" value=""/><field  name="ASSOC3ztext147v1z6z3" value=""/><field name="ASSOC3zselect149v1z6z5" value="Y"/><field  name="ASSOC3ztext150v1z6z6" value=""/><field  name="ASSOC3ztext151v1z6z7" value=""/><field name="ASSOC4zselect181v1z1z1" value=""/><field name="ASSOC4zselect182v1z1z2" value=""/><field  name="ASSOC4ztext183v1z1z3" value=""/><field name="ASSOC4zselect181v1z2z1" value=""/><field name="ASSOC4zselect182v1z2z2" value=""/><field  name="ASSOC4ztext183v1z2z3" value=""/><field name="ASSOC4zselect181v1z3z1" value=""/><field name="ASSOC4zselect182v1z3z2" value=""/><field  name="ASSOC4ztext183v1z3z3" value=""/><field name="ASSOC4zselect181v1z4z1" value=""/><field name="ASSOC4zselect182v1z4z2" value=""/><field  name="ASSOC4ztext183v1z4z3" value=""/><field name="ASSOC4zselect181v1z5z1" value=""/><field name="ASSOC4zselect182v1z5z2" value=""/><field  name="ASSOC4ztext183v1z5z3" value=""/><field name="ASSOC4zselect181v1z6z1" value=""/><field name="ASSOC4zselect182v1z6z2" value=""/><field  name="ASSOC4ztext183v1z6z3" value=""/><field  name="dblastdb1formlayer" value=""/><field  name="ScreenRoot" value="EMPLOYEE.PER_MAINT.TAX"/><eventSource>text156v1</eventSource><eventType>change</eventType><keyCodes>||||text156v1</keyCodes><dimensions>1903|1522|1903|922</dimensions><designbaisState>${designbaisState_b}</designbaisState><req>${regkey}</req><tabStore>${Tstore}</tabStore><captchaKey>null</captchaKey><clientClock>09:05:17</clientClock><clientDate>25.04.2022</clientDate><mobile>false</mobile><lastMVCell></lastMVCell><scrollbarWidth>17</scrollbarWidth></AJAX>]]></textPostContent>
+</http-action>

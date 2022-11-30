@@ -1,0 +1,72 @@
+<http-page enabled="false" executeResourcesDynamically="false"
+    name="/resources/1/a6100e7bce_1" playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@prism@h@r_@company_@details_@c4484560_v8 new/%resources%/recorded-artifacts/1eea3843-396e-4105-922c-fbc5262f03ce.zip"
+    slaProfileEnabled="false" thinkTime="9934"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="1eea3843-396e-4105-922c-fbc5262f03ce">
+    <embedded-action>59c8c0cd-2caf-4daf-be90-d3630f1a1af3</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="text/plain"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/resources/1/a6100e7bce"
+    path="/resources/1/a6100e7bce" postType="4"
+    recordedArtifactZipFileName="team/vus/@prism@h@r_@company_@details_@c4484560_v8 new/%resources%/recorded-artifacts/1eea3843-396e-4105-922c-fbc5262f03ce.zip"
+    recordedResponseCode="200" responseSize="36"
+    serverUid="bam.nr-data.net" slaProfileEnabled="false"
+    uid="59c8c0cd-2caf-4daf-be90-d3630f1a1af3" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_d4efe106-d4f7-4732-b574-3e9af9e2ed68</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_d4efe106-d4f7-4732-b574-3e9af9e2ed68.txt</requestContentFileDescription>
+    <urlPostParameter encodeName="true" encodeValue="true" name="a"
+        recordRawValue="1319471832" separator="=" value="1319471832" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="v"
+        recordRawValue="1216.487a282" separator="=" value="1216.487a282" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="to"
+        recordRawValue="Z1RWbUBZXUMEWkxdVl4edWpiF1dSC1xMGlhDQUw%3D"
+        separator="=" value="Z1RWbUBZXUMEWkxdVl4edWpiF1dSC1xMGlhDQUw=" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="rst"
+        recordRawValue="21892" separator="=" value="21892" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="ck"
+        recordRawValue="1" separator="=" value="1" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="false" name="ref"
+        recordRawValue="https://qaphr998.prismhr.com/qaphr998/"
+        separator="=" value="https://qaphr998.prismhr.com/qaphr998/" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="ptid"
+        recordRawValue="cb2c80f8-0001-bf9e-a097-01835ac0ff5b"
+        separator="=" value="${uuid-1}" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="st"
+        recordRawValue="1663674939142" separator="="
+        value="1663674939142" valueMode="USE_VALUE"/>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="content-type" value="text/plain"/>
+    <header name="Cookie" value="JSESSIONID=${JSESSIONID}"/>
+    <header name="Host" value="bam.nr-data.net"/>
+    <header name="Origin" value="https://qaphr998.prismhr.com"/>
+    <header name="Referer" value="https://qaphr998.prismhr.com/"/>
+    <header name="sec-ch-ua" value="&quot;Google Chrome&quot;;v=&quot;105&quot;, &quot;Not)A;Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;105&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="Sec-Fetch-Dest" value="empty"/>
+    <header name="Sec-Fetch-Mode" value="cors"/>
+    <header name="Sec-Fetch-Site" value="cross-site"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Tue, 20 Sep 2022 11:56:01 GMT&#xd;
+Content-Type: text/plain&#xd;
+Content-Length: 36&#xd;
+Connection: keep-alive&#xd;
+CF-Ray: 74da601c4b63c560-ORD&#xd;
+Access-Control-Allow-Origin: https://qaphr998.prismhr.com&#xd;
+CF-Cache-Status: DYNAMIC&#xd;
+access-control-allow-credentials: true&#xd;
+access-control-allow-methods: GET, POST, PUT, HEAD, OPTIONS&#xd;
+Vary: Accept-Encoding&#xd;
+Server: cloudflare</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[{"res":[{"n":"readystatechange","s":11891,"e":11891,"t":"event","o":"undefined POST: bam.nr-data.net:443/resources/1/a6100e7bce"},{"n":"readystatechange","s":11962,"e":11963,"t":"event","o":"undefined POST: bam.nr-data.net:443/resources/1/a6100e7bce"},{"n":"readystatechange","s":11963,"e":11963,"t":"event","o":"undefined POST: bam.nr-data.net:443/resources/1/a6100e7bce"},{"n":"readystatechange","s":11963,"e":11963,"t":"event","o":"undefined POST: bam.nr-data.net:443/resources/1/a6100e7bce"},{"n":"setTimeout","s":11889,"e":11891,"o":"window","t":"timer"},{"n":"setTimeout","s":13431,"e":13432,"o":"window","t":"timer"},{"n":"setTimeout","s":13450,"e":13450,"o":"window","t":"timer"},{"n":"setTimeout","s":14934,"e":14934,"o":"window","t":"timer"},{"n":"setTimeout","s":15110,"e":15110,"o":"window","t":"timer"},{"n":"setTimeout","s":16906,"e":16906,"o":"window","t":"timer"},{"n":"setTimeout","s":17129,"e":17130,"o":"window","t":"timer"},{"n":"setTimeout","s":18251,"e":18251,"o":"window","t":"timer"},{"n":"setTimeout","s":18415,"e":18415,"o":"window","t":"timer"},{"n":"setTimeout","s":18654,"e":18654,"o":"window","t":"timer"},{"n":"progress","s":11963,"e":11963,"t":"event","o":"undefined POST: bam.nr-data.net:443/resources/1/a6100e7bce"},{"n":"load","s":11963,"e":11963,"t":"event","o":"200 POST: bam.nr-data.net:443/resources/1/a6100e7bce"},{"n":"load","s":11963,"e":11963,"t":"event","o":"200 POST: bam.nr-data.net:443/resources/1/a6100e7bce"},{"n":"load","s":11963,"e":11963,"t":"event","o":"200 POST: bam.nr-data.net:443/resources/1/a6100e7bce"},{"n":"Ajax","s":11891,"e":11963,"o":"200 POST: bam.nr-data.net:443/resources/1/a6100e7bce","t":"ajax"},{"n":"xmlhttprequest","s":11891,"e":11961,"o":"https://bam.nr-data.net:443/resources/1/a6100e7bce","t":"resource"},{"n":"typing","s":12595,"e":13100,"t":"event","o":"input#text4v1.NORMALINPUT"},{"n":"typing","s":14456,"e":14759,"t":"event","o":"input#text4v1.NORMALINPUT"},{"n":"typing","s":16471,"e":16779,"t":"event","o":"input#text4v1.NORMALINPUT"},{"n":"typing","s":17816,"e":18303,"t":"event","o":"input#text4v1.NORMALINPUT"},{"n":"typing","s":21451,"e":21827,"t":"event","o":"input#password6v1.NORMALINPUT"},{"n":"mousing","s":18878,"e":18878,"t":"event","o":"input#text4v1.NORMALINPUT"},{"n":"mousing","s":18878,"e":18939,"t":"event","o":"span#label1v1.visionLayerPanel"},{"n":"mousing","s":18939,"e":18939,"t":"event","o":"input#password6v1.NORMALINPUT"},{"n":"click","s":19767,"e":19767,"t":"event","o":"input#password6v1.NORMALINPUT"},{"n":"click","s":19767,"e":19768,"t":"event","o":"input#password6v1.NORMALINPUT"}]}]]></textPostContent>
+</http-action>

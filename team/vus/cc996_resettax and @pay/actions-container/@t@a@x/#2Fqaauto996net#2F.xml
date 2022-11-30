@@ -1,0 +1,75 @@
+<http-page executeResourcesDynamically="false" name="/qaauto996net/"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/cc996_resettax and @pay/%resources%/recorded-artifacts/0fe33dfc-bc58-4b75-b08d-05fdbf5a0f3d.zip"
+    slaProfileEnabled="false" thinkTime="947"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="0fe33dfc-bc58-4b75-b08d-05fdbf5a0f3d">
+    <embedded-action>1d46772a-336c-4f8d-9457-52b75f6dcef2</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="text/html; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/qaauto996net/" path="/qaauto996net/"
+    postCharset="" postType="4"
+    recordedArtifactZipFileName="team/vus/cc996_resettax and @pay/%resources%/recorded-artifacts/0fe33dfc-bc58-4b75-b08d-05fdbf5a0f3d.zip"
+    recordedResponseCode="200" responseSize="190993"
+    serverUid="qaauto996.prismhr.com" slaProfileEnabled="false"
+    uid="1d46772a-336c-4f8d-9457-52b75f6dcef2" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_6f6bb676-2dfa-46f5-81ce-5ce1602c27b7.0.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_6f6bb676-2dfa-46f5-81ce-5ce1602c27b7.txt</requestContentFileDescription>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0" endsWithSimple="'"
+        extractFromVarNameAdv="" extractFromVarNameSimple=""
+        extractType="0" extractTypeAdv="0" extractTypeSimple="0"
+        matchNumber="1" matchNumberAdv="1" matchNumberSimple="1"
+        name="designbaisState_b"
+        refererUid="d3d0fb9b-70c8-4cd7-a4f7-d122be485161"
+        regExp="designbaisState', '(.*?)'" regExpAdv=""
+        setDefaultValue="true" startsWithSimple="designbaisState', '"
+        template="$1$" templateAdv="$1$"
+        uid="b1e5395c-d962-4199-b31e-8a8d89e729a4" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0" endsWithSimple="="
+        extractFromVarNameAdv="" extractFromVarNameSimple=""
+        extractType="1" extractTypeAdv="0" extractTypeSimple="1"
+        matchNumber="1" matchNumberAdv="1" matchNumberSimple="1"
+        name="IDBrowser"
+        refererUid="bd82ffd1-521f-46b9-b915-4f3f2a6633c4"
+        regExp="IDBrowser=(.*?)=" regExpAdv="" setDefaultValue="true"
+        startsWithSimple="IDBrowser=" template="$1$" templateAdv="$1$"
+        uid="81320ade-b849-4208-ad3b-e540b96387a4" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Content-Type" value="text/xml"/>
+    <header name="Cookie" value="IDBrowser=${IDBrowser}="/>
+    <header name="Host" value="qaauto996.prismhr.com"/>
+    <header name="Origin" value="https://qaauto996.prismhr.com"/>
+    <header name="Referer" value="https://qaauto996.prismhr.com/qaauto996net/"/>
+    <header name="sec-ch-ua" value="&quot; Not A;Brand&quot;;v=&quot;99&quot;, &quot;Chromium&quot;;v=&quot;100&quot;, &quot;Google Chrome&quot;;v=&quot;100&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="Sec-Fetch-Dest" value="empty"/>
+    <header name="Sec-Fetch-Mode" value="cors"/>
+    <header name="Sec-Fetch-Site" value="same-origin"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"/>
+    <header name="X-Requested-With" value="XMLHttpRequest"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Cache-Control: private&#xd;
+Content-Type: text/html; charset=utf-8&#xd;
+Server: Microsoft-IIS/10.0&#xd;
+X-AspNet-Version: 4.0.30319&#xd;
+Set-Cookie: IDBrowser=c96baeb428e94ee3ae680ff009ff947f3746f7d59fee195b8d055dfd77674cb2onbC17S+iW/YmthmLqnveLf3EjhTlhucqSzmZAx+yv4=; expires=Tue, 03-May-2022 14:05:00 GMT; path=/; HttpOnly&#xd;
+X-Powered-By: ASP.NET&#xd;
+Date: Mon, 25 Apr 2022 14:05:01 GMT&#xd;
+Content-Length: 190993</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[<AJAX><field  name="text33v1" value=""/><field  name="text105v1" value="${996Auto_emp_2023.employeeId}"/><field  name="text106v1" value="${996Auto_emp_2023.employeeId}"/><field  name="text107v1" value="${996Auto_emp_2023.lastName}"/><field  name="text108v1" value="Jim"/><field  name="text109v1" value="J"/><field  name="text110v1" value=""/><field  name="text111v1" value=""/><field  name="text112v1" value=""/><field  name="text113v1" value="a@b.com"/><field  name="text115v1" value="${996Auto_emp_2023.employeeId}"/><field  name="textarea123v1" value=""/><field  name="dblastdb1formlayer" value=""/><field  name="ScreenRoot" value="EMPLOYEE.PER_MAINT"/><eventSource>tdxspan38v1x1z6</eventSource><eventType>click</eventType><clickPos>1134,98,TD,tdxspan38v1x1z6</clickPos><keyCodes>||||text107v1</keyCodes><dimensions>1920|922|1920|922</dimensions><designbaisState>${designbaisState_b}</designbaisState><req>${regkey}</req><tabStore>${Tstore}</tabStore><captchaKey>null</captchaKey><clientClock>09:05:00</clientClock><clientDate>25.04.2022</clientDate><mobile>false</mobile><lastMVCell></lastMVCell><scrollbarWidth>17</scrollbarWidth></AJAX>]]></textPostContent>
+</http-action>
